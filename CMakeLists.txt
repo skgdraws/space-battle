@@ -4,4 +4,4 @@ project(Space_Battle)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Space_Battle
-        src/main.cpp DataStructures/Node.cpp DataStructures/List.cpp)
+        src/main.cpp src/DataStructures/Node.cpp src/DataStructures/List.cpp)

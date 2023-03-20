@@ -55,17 +55,17 @@ build CMakeFiles/Space_Battle.dir/src/main.cpp.o: CXX_COMPILER__Space_Battle_Deb
   OBJECT_DIR = CMakeFiles/Space_Battle.dir
   OBJECT_FILE_DIR = CMakeFiles/Space_Battle.dir/src
 
-build CMakeFiles/Space_Battle.dir/DataStructures/Node.cpp.o: CXX_COMPILER__Space_Battle_Debug /home/jose/Desktop/TEC/CE2103/Space$ Battle/DataStructures/Node.cpp || cmake_object_order_depends_target_Space_Battle
-  DEP_FILE = CMakeFiles/Space_Battle.dir/DataStructures/Node.cpp.o.d
+build CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.o: CXX_COMPILER__Space_Battle_Debug /home/jose/Desktop/TEC/CE2103/Space$ Battle/src/DataStructures/Node.cpp || cmake_object_order_depends_target_Space_Battle
+  DEP_FILE = CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles/Space_Battle.dir
-  OBJECT_FILE_DIR = CMakeFiles/Space_Battle.dir/DataStructures
+  OBJECT_FILE_DIR = CMakeFiles/Space_Battle.dir/src/DataStructures
 
-build CMakeFiles/Space_Battle.dir/DataStructures/List.cpp.o: CXX_COMPILER__Space_Battle_Debug /home/jose/Desktop/TEC/CE2103/Space$ Battle/DataStructures/List.cpp || cmake_object_order_depends_target_Space_Battle
-  DEP_FILE = CMakeFiles/Space_Battle.dir/DataStructures/List.cpp.o.d
+build CMakeFiles/Space_Battle.dir/src/DataStructures/List.cpp.o: CXX_COMPILER__Space_Battle_Debug /home/jose/Desktop/TEC/CE2103/Space$ Battle/src/DataStructures/List.cpp || cmake_object_order_depends_target_Space_Battle
+  DEP_FILE = CMakeFiles/Space_Battle.dir/src/DataStructures/List.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles/Space_Battle.dir
-  OBJECT_FILE_DIR = CMakeFiles/Space_Battle.dir/DataStructures
+  OBJECT_FILE_DIR = CMakeFiles/Space_Battle.dir/src/DataStructures
 
 
 # =============================================================================
@@ -75,7 +75,7 @@ build CMakeFiles/Space_Battle.dir/DataStructures/List.cpp.o: CXX_COMPILER__Space
 #############################################
 # Link the executable Space_Battle
 
-build Space_Battle: CXX_EXECUTABLE_LINKER__Space_Battle_Debug CMakeFiles/Space_Battle.dir/src/main.cpp.o CMakeFiles/Space_Battle.dir/DataStructures/Node.cpp.o CMakeFiles/Space_Battle.dir/DataStructures/List.cpp.o
+build Space_Battle: CXX_EXECUTABLE_LINKER__Space_Battle_Debug CMakeFiles/Space_Battle.dir/src/main.cpp.o CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.o CMakeFiles/Space_Battle.dir/src/DataStructures/List.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Space_Battle.dir
   POST_BUILD = :

@@ -1,6 +1,6 @@
 #include <iostream>
 #include "stdio.h"
-#include "../DataStructures/List.cpp"
+#include "DataStructures/List.cpp"
 using namespace std;
 
 int main(){
