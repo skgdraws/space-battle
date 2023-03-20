@@ -26,7 +26,7 @@ public:
         tail = nullptr;
     }
 
-    void insertNode(int data){
+    void insertNode(T data){
         /**
          * Inserta un elemento al final de la lista
          *

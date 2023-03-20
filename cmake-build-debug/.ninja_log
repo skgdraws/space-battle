@@ -6,3 +6,9 @@
 1	7	1679327753571323906	CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.o	3dfbdeae0b30df2d
 1	142	1679327753703324446	CMakeFiles/Space_Battle.dir/src/DataStructures/List.cpp.o	dd68ffcca8159575
 0	146	1679327623090789905	CMakeFiles/Space_Battle.dir/DataStructures/List.cpp.o	5efac26f7debe1dc
+0	30	1679341922952835955	CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.o	3dfbdeae0b30df2d
+0	30	1679341922952835955	CMakeFiles/Space_Battle.dir/src/DTO/BulletCollector.cpp.o	405aa9cda82edc0d
+1	30	1679341922952835955	CMakeFiles/Space_Battle.dir/src/DTO/Bullet.cpp.o	cd9176fe6b089e52
+0	174	1679341923096837483	CMakeFiles/Space_Battle.dir/src/DataStructures/List.cpp.o	dd68ffcca8159575
+0	180	1679341923100837525	CMakeFiles/Space_Battle.dir/src/main.cpp.o	c073a87cebe44810
+180	224	1679341923144837992	Space_Battle	f4605ca67362da6e
