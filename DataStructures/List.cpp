@@ -12,7 +12,11 @@ using namespace std;
 ╚═══╩╩══╩═╝
  */
 
-template <class T> class List{ //La clase tiene una funcion de cola, FIFO: First In First Out
+template <class T> class List{
+    /*
+     * La clase lista define una lista enlazada simple que puede admitir cualquier tipo de dato
+     * Al mismo tiempo, tiene un comportamiento de cola, FIFO: First In First Out
+     */
     Node<T>* head;
     Node<T>* tail;
 

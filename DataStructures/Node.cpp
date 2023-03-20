@@ -9,7 +9,7 @@
 
 template <class T> class Node{
 public:
-    int data;
+    T data;
     Node<T>* next;
 
     Node(int _data){
