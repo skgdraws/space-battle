@@ -1,10 +1,8 @@
 # ninja log v5
-147	182	1679327623126790053	Space_Battle	fd4907cec391de75
-0	147	1679327623090789905	CMakeFiles/Space_Battle.dir/src/main.cpp.o	c073a87cebe44810
+147	185	1679327753747324627	Space_Battle	d722327aac8ae87b
+1	147	1679327753707324463	CMakeFiles/Space_Battle.dir/src/main.cpp.o	c073a87cebe44810
+0	13	1679327936012070558	build.ninja	2c6184a18299ce16
 0	9	1679327622950789332	CMakeFiles/Space_Battle.dir/DataStructures/Node.cpp.o	3194821bee035258
-0	146	1679327623090789905	CMakeFiles/Space_Battle.dir/DataStructures/List.cpp.o	5efac26f7debe1dc
-0	13	1679327753559323857	build.ninja	2c6184a18299ce16
 1	7	1679327753571323906	CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.o	3dfbdeae0b30df2d
 1	142	1679327753703324446	CMakeFiles/Space_Battle.dir/src/DataStructures/List.cpp.o	dd68ffcca8159575
-1	147	1679327753707324463	CMakeFiles/Space_Battle.dir/src/main.cpp.o	c073a87cebe44810
-147	185	1679327753747324627	Space_Battle	d722327aac8ae87b
+0	146	1679327623090789905	CMakeFiles/Space_Battle.dir/DataStructures/List.cpp.o	5efac26f7debe1dc

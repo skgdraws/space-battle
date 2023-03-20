@@ -67,6 +67,18 @@ build CMakeFiles/Space_Battle.dir/src/DataStructures/List.cpp.o: CXX_COMPILER__S
   OBJECT_DIR = CMakeFiles/Space_Battle.dir
   OBJECT_FILE_DIR = CMakeFiles/Space_Battle.dir/src/DataStructures
 
+build CMakeFiles/Space_Battle.dir/src/DTO/BulletCollector.cpp.o: CXX_COMPILER__Space_Battle_Debug /home/jose/Desktop/TEC/CE2103/Space$ Battle/src/DTO/BulletCollector.cpp || cmake_object_order_depends_target_Space_Battle
+  DEP_FILE = CMakeFiles/Space_Battle.dir/src/DTO/BulletCollector.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Space_Battle.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Battle.dir/src/DTO
+
+build CMakeFiles/Space_Battle.dir/src/DTO/Bullet.cpp.o: CXX_COMPILER__Space_Battle_Debug /home/jose/Desktop/TEC/CE2103/Space$ Battle/src/DTO/Bullet.cpp || cmake_object_order_depends_target_Space_Battle
+  DEP_FILE = CMakeFiles/Space_Battle.dir/src/DTO/Bullet.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Space_Battle.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Battle.dir/src/DTO
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Space_Battle
@@ -75,7 +87,7 @@ build CMakeFiles/Space_Battle.dir/src/DataStructures/List.cpp.o: CXX_COMPILER__S
 #############################################
 # Link the executable Space_Battle
 
-build Space_Battle: CXX_EXECUTABLE_LINKER__Space_Battle_Debug CMakeFiles/Space_Battle.dir/src/main.cpp.o CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.o CMakeFiles/Space_Battle.dir/src/DataStructures/List.cpp.o
+build Space_Battle: CXX_EXECUTABLE_LINKER__Space_Battle_Debug CMakeFiles/Space_Battle.dir/src/main.cpp.o CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.o CMakeFiles/Space_Battle.dir/src/DataStructures/List.cpp.o CMakeFiles/Space_Battle.dir/src/DTO/BulletCollector.cpp.o CMakeFiles/Space_Battle.dir/src/DTO/Bullet.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Space_Battle.dir
   POST_BUILD = :
