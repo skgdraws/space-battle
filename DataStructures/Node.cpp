@@ -7,10 +7,10 @@
 ┗┛╋┗━┻━━┻━━┻━━┛
  */
 
-class Node{
+template <class T> class Node{
 public:
     int data;
-    Node* next;
+    Node<T>* next;
 
     Node(int _data){
         this->data = _data;

@@ -12,9 +12,9 @@ using namespace std;
 ╚═══╩╩══╩═╝
  */
 
-class List{ //La clase tiene una funcion de cola, FIFO: First In First Out
-    Node* head;
-    Node* tail;
+template <class T> class List{ //La clase tiene una funcion de cola, FIFO: First In First Out
+    Node<T>* head;
+    Node<T>* tail;
 
 public:
     List(){
@@ -29,7 +29,7 @@ public:
          * @param: data
          * @return: null
          */
-        Node* node = new Node(data);
+        Node<T>* node = new Node<T>(data);
         if(head != nullptr){
             tail->next = node;
             tail = node;
@@ -40,20 +40,20 @@ public:
         cout << "Inserted element: " << node->data << "\n\t in: " << node << endl;
     }
 
-    Node* deleteFirstNode(){ //Elimina el primer elemento y lo devuelve
+    Node<T>* deleteFirstNode(){ //Elimina el primer elemento y lo devuelve
         /**
          * Elimina el primer elemento de la lista
          *
          * @param: null
          * @return: Node*
          */
-        Node* temp = head;
+        Node<T>* temp = head;
         head = head->next;
         return temp;
     }
 
     void printList(){
-        Node* node = head;
+        Node<T>* node = head;
         cout << "\nLinked List: \n\t";
 
         while(node != nullptr){

@@ -6,7 +6,7 @@ using namespace std;
 int main(){
     cout << "Hello, World!" << endl;
 
-    List lista = *new List();
+    List<int> lista = *new List<int>();
     lista.insertNode(1);
     lista.insertNode(2);
     lista.insertNode(3);
