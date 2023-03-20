@@ -1,3 +1,3 @@
-class BulletColletor{
+class BulletCollector{
 
 };
