@@ -1,0 +1,12 @@
+<Strategy>
+    <Power> C </Power>
+        <Name> Area Shot </Name>
+        <Type> Offensive </Type>
+        <Description> A shot that on impact can affect surrounding enemies </Description>
+        <Delay> T </Delay>
+    <Power> D </Power>
+        <Name> Enemy Retarder </Name>
+        <Type> Special </Type>
+        <Description> Causes enemies to move slower </Description>
+        <Delay> 0 </Delay>
+</Strategy>

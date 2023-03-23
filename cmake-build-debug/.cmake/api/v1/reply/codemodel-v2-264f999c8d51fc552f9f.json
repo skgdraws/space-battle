@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/jose/Desktop/TEC/CE2103/Space Battle/cmake-build-debug",
-		"source" : "/home/jose/Desktop/TEC/CE2103/Space Battle"
+		"build" : "/home/jose/Documents/Computadores/CE2103/Space Battle/cmake-build-debug",
+		"source" : "/home/jose/Documents/Computadores/CE2103/Space Battle"
 	},
 	"version" : 
 	{

@@ -1,0 +1,12 @@
+<Strategy>
+    <Power> E </Power>
+        <Name> Piercing Shot </Name>
+        <Type> Offensive </Type>
+        <Description> The shot pierces the enemies in front of it </Description>
+        <Delay> T </Delay>
+    <Power> F </Power>
+        <Name> Repelling Wave </Name>
+        <Type> Special </Type>
+        <Description> Push enemies back </Description>
+        <Delay> T </Delay>
+</Strategy>

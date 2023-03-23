@@ -1,0 +1,12 @@
+<Strategy>
+    <Power> A </Power>
+        <Name> MultiShot </Name>
+        <Type> Offensive </Type>
+        <Description> Allows to shoot 3 bullets at the same time </Description>
+        <Delay> 0 </Delay>
+    <Power> B </Power>
+        <Name> Shield </Name>
+        <Type> Defensive </Type>
+        <Description> Generates a shield around the player, hold one hit </Description>
+        <Delay> T </Delay>
+</Strategy>

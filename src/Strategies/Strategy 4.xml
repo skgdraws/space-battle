@@ -1,0 +1,12 @@
+<Strategy>
+    <Power> G </Power>
+        <Name> Bouncing Shot </Name>
+        <Type> Offensive </Type>
+        <Description> Deflects shot after hitting a enemy </Description>
+        <Delay> 0 </Delay>
+    <Power> H </Power>
+        <Name> Powerful Shot </Name>
+        <Type> Offensive </Type>
+        <Description> Generates a shot with twice the power </Description>
+        <Delay> T </Delay>
+</Strategy>
