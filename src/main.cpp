@@ -1,8 +1,41 @@
 #include <iostream>
 #include "stdio.h"
 #include "DataStructures/List.cpp"
-using namespace std;
+#include <SFML/Graphics.hpp>
 
+using namespace std;
+using namespace sf;
+
+int main(){
+
+    // Window setup
+    RenderWindow window(VideoMode(1280, 720), "Screen Setup", Style::Default);
+    window.setFramerateLimit(60);
+
+    // while loop for rendering
+    while (window.isOpen()){
+
+        Event event;
+
+        while (window.pollEvent(event)){
+            if (event.type == Event::Closed){
+                window.close();
+            }
+        }
+
+        // You should Update Values first
+
+        //Then you draw/render (it first clears the screen so that we can update the sprites)
+        window.clear();
+
+        //Displays everything in the window
+        window.display();
+    }
+
+    return 0;
+}
+
+/*
 int main(){
     cout << "Hello, World!" << endl;
 
@@ -26,4 +59,4 @@ int main(){
     lista.deleteFirstNode();
     lista.printList();
     return 0;
-}
+}*/
