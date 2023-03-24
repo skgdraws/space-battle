@@ -26,7 +26,7 @@ public:
         tail = nullptr;
     }
 
-    void insertNode(T data){
+    void insertNode(T data){//Generar un metodo para insertar nodos
         /**
          * Inserta un elemento al final de la lista
          *
@@ -34,14 +34,25 @@ public:
          * @return: null
          */
         Node<T>* node = new Node<T>(data);
+        insertNode(node);
+    }
+
+    void insertNode(Node<T>* _node){
+        /**
+         * Inserta un elemento al final de la lista
+         * Metodo sobrecargado
+         *
+         * @param: Node
+         * @return: null
+         */
         if(head != nullptr){
-            tail->next = node;
-            tail = node;
+            tail->next = _node;
+            tail = _node;
         }else{
-            head = node;
-            tail = node;
+            head = _node;
+            tail = _node;
         }
-        cout << "Inserted element: " << node->data << "\n\t in: " << node << endl;
+        cout << "Inserted element: " << _node->data << "\n\t in: " << _node << endl;
     }
 
     Node<T>* deleteFirstNode(){ //Elimina el primer elemento y lo devuelve

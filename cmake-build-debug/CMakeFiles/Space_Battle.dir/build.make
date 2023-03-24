@@ -156,6 +156,10 @@ Space_Battle: CMakeFiles/Space_Battle.dir/src/DataStructures/List.cpp.o
 Space_Battle: CMakeFiles/Space_Battle.dir/src/DTO/BulletCollector.cpp.o
 Space_Battle: CMakeFiles/Space_Battle.dir/src/DTO/Bullet.cpp.o
 Space_Battle: CMakeFiles/Space_Battle.dir/build.make
+Space_Battle: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
+Space_Battle: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
+Space_Battle: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
+Space_Battle: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 Space_Battle: CMakeFiles/Space_Battle.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/jose/Documents/Computadores/CE2103/Space Battle/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Space_Battle"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Space_Battle.dir/link.txt --verbose=$(VERBOSE)
