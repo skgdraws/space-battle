@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jose/Documents/Computadores/CE2103/Space Battle/cmake-build-debug"
+			"value" : "/home/jose/Desktop/TEC/CE2103/Space Battle/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-j4"
+			"value" : "-j12"
 		},
 		{
 			"name" : "CMAKE_COLOR_DIAGNOSTICS",
@@ -627,7 +627,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jose/Documents/Computadores/CE2103/Space Battle/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/jose/Desktop/TEC/CE2103/Space Battle/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -687,7 +687,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jose/Documents/Computadores/CE2103/Space Battle"
+			"value" : "/home/jose/Desktop/TEC/CE2103/Space Battle"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jose/Documents/Computadores/CE2103/Space Battle/cmake-build-debug"
+			"value" : "/home/jose/Desktop/TEC/CE2103/Space Battle/cmake-build-debug"
 		},
 		{
 			"name" : "Space_Battle_IS_TOP_LEVEL",
@@ -1303,7 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jose/Documents/Computadores/CE2103/Space Battle"
+			"value" : "/home/jose/Desktop/TEC/CE2103/Space Battle"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

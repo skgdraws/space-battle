@@ -57,10 +57,10 @@ RM = /home/jose/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/jose/Documents/Computadores/CE2103/Space Battle"
+CMAKE_SOURCE_DIR = "/home/jose/Desktop/TEC/CE2103/Space Battle"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/jose/Documents/Computadores/CE2103/Space Battle/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/jose/Desktop/TEC/CE2103/Space Battle/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jose/Documents/Computadores/CE2103/Space Battle/cmake-build-debug/CMakeFiles" "/home/jose/Documents/Computadores/CE2103/Space Battle/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jose/Desktop/TEC/CE2103/Space Battle/cmake-build-debug/CMakeFiles" "/home/jose/Desktop/TEC/CE2103/Space Battle/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jose/Documents/Computadores/CE2103/Space Battle/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jose/Desktop/TEC/CE2103/Space Battle/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -177,54 +177,6 @@ src/DTO/BulletCollector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/src/DTO/BulletCollector.cpp.s
 .PHONY : src/DTO/BulletCollector.cpp.s
 
-src/DataStructures/List.o: src/DataStructures/List.cpp.o
-.PHONY : src/DataStructures/List.o
-
-# target to build an object file
-src/DataStructures/List.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/src/DataStructures/List.cpp.o
-.PHONY : src/DataStructures/List.cpp.o
-
-src/DataStructures/List.i: src/DataStructures/List.cpp.i
-.PHONY : src/DataStructures/List.i
-
-# target to preprocess a source file
-src/DataStructures/List.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/src/DataStructures/List.cpp.i
-.PHONY : src/DataStructures/List.cpp.i
-
-src/DataStructures/List.s: src/DataStructures/List.cpp.s
-.PHONY : src/DataStructures/List.s
-
-# target to generate assembly for a file
-src/DataStructures/List.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/src/DataStructures/List.cpp.s
-.PHONY : src/DataStructures/List.cpp.s
-
-src/DataStructures/Node.o: src/DataStructures/Node.cpp.o
-.PHONY : src/DataStructures/Node.o
-
-# target to build an object file
-src/DataStructures/Node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.o
-.PHONY : src/DataStructures/Node.cpp.o
-
-src/DataStructures/Node.i: src/DataStructures/Node.cpp.i
-.PHONY : src/DataStructures/Node.i
-
-# target to preprocess a source file
-src/DataStructures/Node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.i
-.PHONY : src/DataStructures/Node.cpp.i
-
-src/DataStructures/Node.s: src/DataStructures/Node.cpp.s
-.PHONY : src/DataStructures/Node.s
-
-# target to generate assembly for a file
-src/DataStructures/Node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.s
-.PHONY : src/DataStructures/Node.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -264,12 +216,6 @@ help:
 	@echo "... src/DTO/BulletCollector.o"
 	@echo "... src/DTO/BulletCollector.i"
 	@echo "... src/DTO/BulletCollector.s"
-	@echo "... src/DataStructures/List.o"
-	@echo "... src/DataStructures/List.i"
-	@echo "... src/DataStructures/List.s"
-	@echo "... src/DataStructures/Node.o"
-	@echo "... src/DataStructures/Node.i"
-	@echo "... src/DataStructures/Node.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

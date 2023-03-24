@@ -27,7 +27,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/jose/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake"
   "/home/jose/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake"
   "/home/jose/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/linux/x64/share/cmake-3.24/Modules/ProcessorCount.cmake"
-  "/home/jose/Documents/Computadores/CE2103/Space Battle/CMakeLists.txt"
+  "/home/jose/Desktop/TEC/CE2103/Space Battle/CMakeLists.txt"
   "CMakeFiles/3.24.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeSystem.cmake"

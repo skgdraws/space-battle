@@ -1,19 +1,5 @@
-/*
-┏━┓╋┏┓╋╋╋╋┏┓
-┃┃┗┓┃┃╋╋╋╋┃┃
-┃┏┓┗┛┣━━┳━┛┣━━┓
-┃┃┗┓┃┃┏┓┃┏┓┃┃━┫
-┃┃╋┃┃┃┗┛┃┗┛┃┃━┫
-┗┛╋┗━┻━━┻━━┻━━┛
- */
+//
+// Created by jose on 3/23/23.
+//
 
-template <class T> class Node{
-public:
-    T data;
-    Node<T>* next;
-
-    Node(T _data){
-        this->data = _data;
-        this->next = nullptr;
-    }
-};
+#include "Node.h"
