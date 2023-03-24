@@ -1,6 +1,6 @@
 #include <iostream>
 #include "stdio.h"
-#include "DataStructures/List.cpp"
+#include "DataStructures/List.h"
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <SFML/System.hpp>
