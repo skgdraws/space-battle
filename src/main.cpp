@@ -2,25 +2,32 @@
 #include "stdio.h"
 #include "DataStructures/List.cpp"
 #include <SFML/Graphics.hpp>
+#include <SFML/Window.hpp>
+#include <SFML/System.hpp>
 
 using namespace std;
 using namespace sf;
 
-int main(){
+int main() {
 
     // Window setup
-    RenderWindow window(VideoMode(1280, 720), "Screen Setup", Style::Default);
+    RenderWindow window(VideoMode(960, 720), "Screen Setup", Style::Default);
     window.setFramerateLimit(60);
 
     // while loop for rendering
-    while (window.isOpen()){
+    while (window.isOpen()) {
 
         Event event;
 
-        while (window.pollEvent(event)){
-            if (event.type == Event::Closed){
+        while (window.pollEvent(event)) {
+
+            if (event.type == Event::Closed) {
                 window.close();
             }
+            if (event.type == Event::KeyPressed && event.key.code == Keyboard::Escape){
+                window.close();
+            }
+
         }
 
         // You should Update Values first
@@ -34,29 +41,3 @@ int main(){
 
     return 0;
 }
-
-/*
-int main(){
-    cout << "Hello, World!" << endl;
-
-    List<int> lista = *new List<int>();
-    lista.insertNode(1);
-    lista.insertNode(2);
-    lista.insertNode(3);
-    lista.insertNode(4);
-    lista.insertNode(5);
-    lista.insertNode(6);
-    lista.insertNode(7);
-    lista.insertNode(8);
-    lista.insertNode(9);
-    lista.insertNode(0);
-
-    lista.printList();
-    lista.deleteFirstNode();
-    lista.printList();
-    lista.deleteFirstNode();
-    lista.printList();
-    lista.deleteFirstNode();
-    lista.printList();
-    return 0;
-}*/
