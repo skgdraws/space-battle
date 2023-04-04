@@ -1,42 +1,23 @@
 #include <iostream>
 #include "stdio.h"
-#include "DataStructures/List.h"
-#include <SFML/Graphics.hpp>
-#include <SFML/Window.hpp>
-#include <SFML/System.hpp>
+#include "PlayState.h"
 
 using namespace std;
 using namespace sf;
 
 int main() {
 
-    //Window setup
-    RenderWindow window(VideoMode(960, 720), "Screen Setup", Style::Default);
-    window.setFramerateLimit(60);
+    //Game init
+    PlayState playstate;
 
-    // while loop for rendering
-    while (window.isOpen()) {
+    // while loop to let the game run
+    while (playstate.running()) {
 
-        Event event;
+        // Update
+        playstate.update();
 
-        while (window.pollEvent(event)) {
-
-            if (event.type == Event::Closed) {
-                window.close();
-            }
-            if (event.type == Event::KeyPressed && event.key.code == Keyboard::Escape){
-                window.close();
-            }
-
-        }
-
-        // You should Update Values first
-
-        //Then you draw/render (it first clears the screen so that we can update the sprites)
-        window.clear();
-
-        //Displays everything in the window
-        window.display();
+        // Rendering
+        playstate.render();
     }
 
     return 0;
