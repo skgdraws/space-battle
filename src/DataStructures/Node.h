@@ -11,11 +11,10 @@ public:
     T data;
     Node<T>* next;
 
-    explicit Node(T _data){
-        this->data = _data;
+    explicit Node(T data){
+        this->data = data;
         this->next = nullptr;
     }
 };
-
 
 #endif //SPACE_BATTLE_NODE_H
