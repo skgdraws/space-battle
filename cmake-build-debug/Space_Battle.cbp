@@ -94,10 +94,40 @@
 		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.h">
 			<Option target="Space_Battle"/>
 		</Unit>
-		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy0.cpp">
+		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy.cpp">
 			<Option target="Space_Battle"/>
 		</Unit>
-		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy0.h">
+		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy.h">
+			<Option target="Space_Battle"/>
+		</Unit>
+		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_1.cpp">
+			<Option target="Space_Battle"/>
+		</Unit>
+		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_1.h">
+			<Option target="Space_Battle"/>
+		</Unit>
+		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_2.cpp">
+			<Option target="Space_Battle"/>
+		</Unit>
+		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_2.h">
+			<Option target="Space_Battle"/>
+		</Unit>
+		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_3.cpp">
+			<Option target="Space_Battle"/>
+		</Unit>
+		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_3.h">
+			<Option target="Space_Battle"/>
+		</Unit>
+		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_4.cpp">
+			<Option target="Space_Battle"/>
+		</Unit>
+		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_4.h">
+			<Option target="Space_Battle"/>
+		</Unit>
+		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_5.cpp">
+			<Option target="Space_Battle"/>
+		</Unit>
+		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_5.h">
 			<Option target="Space_Battle"/>
 		</Unit>
 		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp">

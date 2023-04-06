@@ -10,18 +10,18 @@
 using namespace sf;
 using namespace std;
 
-void Enemy::setHp() {
-    this->hp = 100;
+void Enemy::setHp(int i) {
+    this->hp = i;
 }
 
-void Enemy::setSpeed() {
-    this->speed = 10;
+void Enemy::setSpeed(int i) {
+    this->speed = i;
 }
 
-void Enemy::setColor() {
-    this->enemy.setFillColor(Color::Black);
+void Enemy::setColor(sf::Color color) {
+    this->enemy.setFillColor(color);
 }
 
-void Enemy::setDimensions() {
-    this->enemy.setSize(Vector2f(50.f,50.f));
+void Enemy::setDimensions(Vector2f dimension) {
+    this->enemy.setSize(dimension);
 }

@@ -125,19 +125,19 @@ CMakeFiles/Space_Battle.dir/src/DataStructures/LinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/src/DataStructures/LinkedList.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp -o CMakeFiles/Space_Battle.dir/src/DataStructures/LinkedList.cpp.s
 
-CMakeFiles/Space_Battle.dir/src/Enemies/Enemy0.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
-CMakeFiles/Space_Battle.dir/src/Enemies/Enemy0.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy0.cpp
-CMakeFiles/Space_Battle.dir/src/Enemies/Enemy0.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Space_Battle.dir/src/Enemies/Enemy0.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/src/Enemies/Enemy0.cpp.o -MF CMakeFiles/Space_Battle.dir/src/Enemies/Enemy0.cpp.o.d -o CMakeFiles/Space_Battle.dir/src/Enemies/Enemy0.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy0.cpp
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy.cpp
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Space_Battle.dir/src/Enemies/Enemy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/src/Enemies/Enemy.cpp.o -MF CMakeFiles/Space_Battle.dir/src/Enemies/Enemy.cpp.o.d -o CMakeFiles/Space_Battle.dir/src/Enemies/Enemy.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy.cpp
 
-CMakeFiles/Space_Battle.dir/src/Enemies/Enemy0.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/src/Enemies/Enemy0.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy0.cpp > CMakeFiles/Space_Battle.dir/src/Enemies/Enemy0.cpp.i
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/src/Enemies/Enemy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy.cpp > CMakeFiles/Space_Battle.dir/src/Enemies/Enemy.cpp.i
 
-CMakeFiles/Space_Battle.dir/src/Enemies/Enemy0.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/src/Enemies/Enemy0.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy0.cpp -o CMakeFiles/Space_Battle.dir/src/Enemies/Enemy0.cpp.s
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/src/Enemies/Enemy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy.cpp -o CMakeFiles/Space_Battle.dir/src/Enemies/Enemy.cpp.s
 
 CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
 CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp
@@ -153,14 +153,89 @@ CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp -o CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.s
 
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_1.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_1.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_1.cpp
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_1.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_1.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_1.cpp.o -MF CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_1.cpp.o.d -o CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_1.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_1.cpp
+
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_1.cpp > CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_1.cpp.i
+
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_1.cpp -o CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_1.cpp.s
+
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_2.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_2.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_2.cpp
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_2.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_2.cpp.o -MF CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_2.cpp.o.d -o CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_2.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_2.cpp
+
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_2.cpp > CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_2.cpp.i
+
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_2.cpp -o CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_2.cpp.s
+
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_3.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_3.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_3.cpp
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_3.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_3.cpp.o -MF CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_3.cpp.o.d -o CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_3.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_3.cpp
+
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_3.cpp > CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_3.cpp.i
+
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_3.cpp -o CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_3.cpp.s
+
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_4.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_4.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_4.cpp
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_4.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_4.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_4.cpp.o -MF CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_4.cpp.o.d -o CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_4.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_4.cpp
+
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_4.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_4.cpp > CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_4.cpp.i
+
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_4.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_4.cpp -o CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_4.cpp.s
+
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_5.cpp
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.o -MF CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.o.d -o CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_5.cpp
+
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_5.cpp > CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.i
+
+CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_5.cpp -o CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.s
+
 # Object files for target Space_Battle
 Space_Battle_OBJECTS = \
 "CMakeFiles/Space_Battle.dir/src/main.cpp.o" \
 "CMakeFiles/Space_Battle.dir/src/Player.cpp.o" \
 "CMakeFiles/Space_Battle.dir/src/PlayState.cpp.o" \
 "CMakeFiles/Space_Battle.dir/src/DataStructures/LinkedList.cpp.o" \
-"CMakeFiles/Space_Battle.dir/src/Enemies/Enemy0.cpp.o" \
-"CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.o"
+"CMakeFiles/Space_Battle.dir/src/Enemies/Enemy.cpp.o" \
+"CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.o" \
+"CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_1.cpp.o" \
+"CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_2.cpp.o" \
+"CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_3.cpp.o" \
+"CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_4.cpp.o" \
+"CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.o"
 
 # External object files for target Space_Battle
 Space_Battle_EXTERNAL_OBJECTS =
@@ -169,15 +244,20 @@ Space_Battle: CMakeFiles/Space_Battle.dir/src/main.cpp.o
 Space_Battle: CMakeFiles/Space_Battle.dir/src/Player.cpp.o
 Space_Battle: CMakeFiles/Space_Battle.dir/src/PlayState.cpp.o
 Space_Battle: CMakeFiles/Space_Battle.dir/src/DataStructures/LinkedList.cpp.o
-Space_Battle: CMakeFiles/Space_Battle.dir/src/Enemies/Enemy0.cpp.o
+Space_Battle: CMakeFiles/Space_Battle.dir/src/Enemies/Enemy.cpp.o
 Space_Battle: CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.o
+Space_Battle: CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_1.cpp.o
+Space_Battle: CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_2.cpp.o
+Space_Battle: CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_3.cpp.o
+Space_Battle: CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_4.cpp.o
+Space_Battle: CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.o
 Space_Battle: CMakeFiles/Space_Battle.dir/build.make
 Space_Battle: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 Space_Battle: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
 Space_Battle: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 Space_Battle: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 Space_Battle: CMakeFiles/Space_Battle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Space_Battle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Space_Battle"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Space_Battle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
