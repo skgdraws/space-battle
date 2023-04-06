@@ -11,11 +11,11 @@
 /*
  * Abstract Class
  */
-
 class Enemy {
 protected:
     // Display
     sf::RenderWindow window;
+
     sf::RectangleShape enemy;
 
     // Stats
@@ -25,7 +25,6 @@ protected:
     int spawnTimer = 0;
 
 public:
-    Enemy();
     // Set parameters
     void setHp(int i);
     void setSpeed(int i);
