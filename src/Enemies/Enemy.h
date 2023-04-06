@@ -24,6 +24,7 @@ protected:
     int spawnTimer = 0;
 
 public:
+    // Set parameters
     void setHp();
     void setSpeed();
     void setColor();

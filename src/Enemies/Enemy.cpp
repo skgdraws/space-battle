@@ -11,17 +11,17 @@ using namespace sf;
 using namespace std;
 
 void Enemy::setHp() {
-
+    this->hp = 100;
 }
 
 void Enemy::setSpeed() {
-
+    this->speed = 10;
 }
 
 void Enemy::setColor() {
-
+    this->enemy.setFillColor(Color::Black);
 }
 
 void Enemy::setDimensions() {
-
+    this->enemy.setSize(Vector2f(50.f,50.f));
 }
