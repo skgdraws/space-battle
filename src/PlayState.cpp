@@ -67,4 +67,6 @@ void PlayState::render() {
 
     // Finishes the rendering
     this->window->display();
+
+
 }

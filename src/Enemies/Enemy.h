@@ -8,30 +8,29 @@
 #include <iostream>
 #include "SFML/Graphics.hpp"
 #include "SFML/System.hpp"
+
+using namespace sf;
 /*
  * Abstract Class
  */
 class Enemy {
-protected:
+private:
+    int spawnTimer = 0;
+public:
     // Display
     sf::RenderWindow window;
 
-    sf::RectangleShape enemy;
+    RectangleShape enemy;
 
     // Stats
-    int hp;
-    int speed;
-    int posY;
-    int spawnTimer = 0;
+    int hp = 0;
+    float speed = 10.f;
 
-public:
     // Set parameters
-    void setHp(int i);
-    void setSpeed(int i);
-    void setColor(sf::Color color);
-    void setDimensions(sf::Vector2f dimension);
+    void setHp(int h);
 
-
+    void draw(sf::Color color, sf::Vector2f dimension);
+    virtual void movement();
 
 };
 

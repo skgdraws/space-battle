@@ -2201,7 +2201,12 @@ CMakeFiles/Space_Battle.dir/src/PlayState.cpp.o: /home/jose/Desktop/TEC/CE2103/s
   /usr/include/SFML/Graphics/Glsl.inl \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Text.hpp \
-  /usr/include/SFML/Graphics/VertexBuffer.hpp
+  /usr/include/SFML/Graphics/VertexBuffer.hpp \
+  /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_1.h \
+  /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/bits/istream.tcc
 
 CMakeFiles/Space_Battle.dir/src/Player.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp \
   /usr/include/stdc-predef.h \
@@ -2777,7 +2782,9 @@ CMakeFiles/Space_Battle.dir/src/main.cpp.o: /home/jose/Desktop/TEC/CE2103/space-
   /usr/include/SFML/Graphics/Glsl.inl \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Text.hpp \
-  /usr/include/SFML/Graphics/VertexBuffer.hpp
+  /usr/include/SFML/Graphics/VertexBuffer.hpp \
+  /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy_1.h \
+  /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemies/Enemy.h
 
 
 /home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp:

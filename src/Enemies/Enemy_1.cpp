@@ -10,9 +10,3 @@
 using namespace sf;
 using namespace std;
 
-Enemy_1::Enemy_1() {
-    this->setHp(200);
-    this->setSpeed(10);
-    this->setColor(sf::Color::Red);
-    this->setDimensions(Vector2f(50.f,50.f));
-}

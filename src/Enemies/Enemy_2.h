@@ -12,8 +12,15 @@
  */
 
 class Enemy_2 : public Enemy {
+/*
+    hp = 150
+    speed = 15
+    Color: Blue
+    Dimensions: 40.f, 50.f
+ */
 public:
-    Enemy_2();
+    void movement() override;
+
 };
 
 

@@ -6,22 +6,31 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
+#include<cstdlib>
 
 using namespace sf;
 using namespace std;
 
-void Enemy::setHp(int i) {
-    this->hp = i;
+void Enemy::setHp(int h) {
+    this->hp = h;
 }
 
-void Enemy::setSpeed(int i) {
-    this->speed = i;
+void Enemy::draw(sf::Color color, sf::Vector2f dimension) {
+    enemy.setFillColor(color);
+    enemy.setSize(dimension);
+
+    spawnTimer++;
+
+    if(this->spawnTimer >= 30){
+        enemy.setPosition(float(window.getSize().x), float(rand()%(window.getSize().y)));
+        spawnTimer = 0;
+    }
+
 }
 
-void Enemy::setColor(sf::Color color) {
-    this->enemy.setFillColor(color);
-}
-
-void Enemy::setDimensions(Vector2f dimension) {
-    this->enemy.setSize(dimension);
+void Enemy::movement(){
+    enemy.move(speed, 0);
+    if(enemy.getPosition().x < 0){
+        window.clear();
+    }
 }

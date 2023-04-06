@@ -10,9 +10,9 @@
 using namespace sf;
 using namespace std;
 
-Enemy_3::Enemy_3() {
-    this->setHp(500);
-    this->setSpeed(10);
-    this->setColor(sf::Color::Green);
-    this->setDimensions(Vector2f(75.f,75.f));
+void Enemy_3::movement(){
+    enemy.move(speed - 5.f, 0.f);
+    if(enemy.getPosition().x < 0){
+        window.clear();
+    }
 }

@@ -8,9 +8,10 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <SFML/System.hpp>
+#include<cstdlib>
+#include "Enemies/Enemy_1.h"
 
 class PlayState {
-
 private:
 
     // Rendering Variables

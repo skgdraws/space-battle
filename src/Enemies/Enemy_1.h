@@ -12,8 +12,12 @@
  */
 
 class Enemy_1 : public Enemy {
-public:
-    Enemy_1();
+/*
+    hp = 200
+    speed = 10
+    Color: Red
+    Dimensions: 50.f, 40.f
+ */
 };
 
 
