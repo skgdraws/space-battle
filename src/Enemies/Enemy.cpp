@@ -15,16 +15,18 @@ void Enemy::setHp(int h) {
     this->hp = h;
 }
 
-void Enemy::draw(sf::Color color, sf::Vector2f dimension) {
-    enemy.setFillColor(color);
-    enemy.setSize(dimension);
+void Enemy::draw() {
+    hp = 0;
+    speed = 10.f;
+    enemy.setFillColor(Color::Black);
+    enemy.setSize(sf::Vector2f(50.f, 50.f));
 
-    spawnTimer++;
-
-    if(this->spawnTimer >= 30){
-        enemy.setPosition(float(window.getSize().x), float(rand()%(window.getSize().y)));
-        spawnTimer = 0;
-    }
+//    spawnTimer++;
+//
+//    if(this->spawnTimer >= 30){
+//        enemy.setPosition(float(window.getSize().x), float(rand()%(window.getSize().y)));
+//        spawnTimer = 0;
+//    }
 
 }
 

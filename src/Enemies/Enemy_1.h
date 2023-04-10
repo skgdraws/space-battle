@@ -18,6 +18,8 @@ class Enemy_1 : public Enemy {
     Color: Red
     Dimensions: 50.f, 40.f
  */
+public:
+    void draw() override;
 };
 
 

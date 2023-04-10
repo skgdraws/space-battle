@@ -18,7 +18,8 @@ class Enemy_5 : public Enemy {
     Color: Cyan
     Dimensions: 30.f, 25.f
  */
+public:
+    void draw() override;
 };
-
 
 #endif //SPACE_BATTLE_ENEMY_5_H

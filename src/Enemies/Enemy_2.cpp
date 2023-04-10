@@ -10,9 +10,9 @@
 using namespace sf;
 using namespace std;
 
-void Enemy_2::movement(){
-    enemy.move(speed + 5.f, 0.f);
-    if(enemy.getPosition().x < 0){
-        window.clear();
-    }
+void Enemy_2::draw() {
+    hp = 150;
+    speed = 15.f;
+    enemy.setFillColor(Color::Blue);
+    enemy.setSize(sf::Vector2f(40.f, 35.f));
 }

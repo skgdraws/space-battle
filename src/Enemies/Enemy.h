@@ -23,13 +23,13 @@ public:
     RectangleShape enemy;
 
     // Stats
-    int hp = 0;
-    float speed = 10.f;
+    int hp;
+    float speed;
 
     // Set parameters
     void setHp(int h);
 
-    void draw(sf::Color color, sf::Vector2f dimension);
+    virtual void draw();
     virtual void movement();
 
 };

@@ -19,6 +19,7 @@ class Enemy_4 : public Enemy {
     Dimensions: 50.f, 40.f
  */
 public:
+    void draw() override;
     void movement() override;
 
 };
