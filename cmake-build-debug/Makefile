@@ -129,6 +129,30 @@ Space_Battle/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/build
 .PHONY : Space_Battle/fast
 
+src/DTO/Wave.o: src/DTO/Wave.cpp.o
+.PHONY : src/DTO/Wave.o
+
+# target to build an object file
+src/DTO/Wave.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/src/DTO/Wave.cpp.o
+.PHONY : src/DTO/Wave.cpp.o
+
+src/DTO/Wave.i: src/DTO/Wave.cpp.i
+.PHONY : src/DTO/Wave.i
+
+# target to preprocess a source file
+src/DTO/Wave.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/src/DTO/Wave.cpp.i
+.PHONY : src/DTO/Wave.cpp.i
+
+src/DTO/Wave.s: src/DTO/Wave.cpp.s
+.PHONY : src/DTO/Wave.s
+
+# target to generate assembly for a file
+src/DTO/Wave.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/src/DTO/Wave.cpp.s
+.PHONY : src/DTO/Wave.cpp.s
+
 src/DataStructures/LinkedList.o: src/DataStructures/LinkedList.cpp.o
 .PHONY : src/DataStructures/LinkedList.o
 
@@ -402,6 +426,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Space_Battle"
+	@echo "... src/DTO/Wave.o"
+	@echo "... src/DTO/Wave.i"
+	@echo "... src/DTO/Wave.s"
 	@echo "... src/DataStructures/LinkedList.o"
 	@echo "... src/DataStructures/LinkedList.i"
 	@echo "... src/DataStructures/LinkedList.s"

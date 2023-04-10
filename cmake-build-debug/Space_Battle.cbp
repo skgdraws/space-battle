@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp">
+			<Option target="Space_Battle"/>
+		</Unit>
+		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.h">
+			<Option target="Space_Battle"/>
+		</Unit>
 		<Unit filename="/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp">
 			<Option target="Space_Battle"/>
 		</Unit>

@@ -14,8 +14,6 @@ using namespace sf;
  * Abstract Class
  */
 class Enemy {
-private:
-    int spawnTimer = 0;
 public:
     // Display
     sf::RenderWindow window;

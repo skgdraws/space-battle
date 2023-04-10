@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Space_Battle.dir/src/DTO/Wave.cpp.o"
+  "CMakeFiles/Space_Battle.dir/src/DTO/Wave.cpp.o.d"
   "CMakeFiles/Space_Battle.dir/src/DataStructures/LinkedList.cpp.o"
   "CMakeFiles/Space_Battle.dir/src/DataStructures/LinkedList.cpp.o.d"
   "CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.o"
