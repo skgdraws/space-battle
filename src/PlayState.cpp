@@ -1,70 +1,129 @@
-//
-// Created by skgart on 31/03/23.
-//
-
 #include "PlayState.h"
 
 void PlayState::initVariables() {
 
-    this->window = nullptr;
-
+    this->endGame = false;
+    this->spawnTimerMax = 10.f;
+    this->spawnTimer = this->spawnTimerMax;
+    // this->maxSwagBalls = 10;
+    this->points = 0;
 }
 
 void PlayState::initWindow() {
 
-    this->window = new sf::RenderWindow(sf::VideoMode(960, 720), "Space Wars", sf::Style::Titlebar | sf::Style::Close);
+    this->videoMode = sf::VideoMode(800, 600);
+    this->window = new sf::RenderWindow(this->videoMode, "Draggin' Balls", sf::Style::Close | sf::Style::Titlebar);
+    this->window->setFramerateLimit(60);
 }
 
-// Constructor
-PlayState::PlayState() {
+// Constructors and Destructors
+PlayState::PlayState(){
 
     this->initVariables();
     this->initWindow();
 }
 
-PlayState::~PlayState() {
+PlayState::~PlayState(){
 
     delete this->window;
 }
 
-// Accessors ???
+// Functions
 const bool PlayState::running() const {
 
     return this->window->isOpen();
 }
 
-// Functions
 void PlayState::pollEvents() {
 
-    // Polling Events
-    while (this->window->pollEvent(this->ev)) {
+    while (this->window->pollEvent(this->ev)){
 
-        // Cases we want to check
-        switch (this->ev.type) {
+        switch(this->ev.type){
+
             case sf::Event::Closed:
-                window->close();
+                this->window->close();
                 break;
 
             case sf::Event::KeyPressed:
                 if (this->ev.key.code == sf::Keyboard::Escape){
                     this->window->close();
                 }
-                break;
-        }
 
+                break;
+
+        }
     }
+}
+
+void PlayState::spawnSwagBalls() {
+
+//    //timer shennanigans
+//    if (this->spawnTimer < this->spawnTimerMax){
+//
+//        this->spawnTimer += 1.f;
+//    }
+//    else{
+//
+//        if (this->swagBalls.size() < this->maxSwagBalls){
+//
+//            this->swagBalls.push_back(SwagBall(*this->window, rand()%SwagBallTypes::NROFTYPES));
+//            this->spawnTimer = 0.f;
+//        }
+//    }
+}
+
+void PlayState::updateCollisions() {
+
+//    for (int i = 0; i < swagBalls.size(); i++){
+//
+//        if (this->player.getShape().getGlobalBounds().intersects(this->swagBalls[i].getShape().getGlobalBounds())){
+//
+//            switch(this->swagBalls[i].getType()) {
+//
+//                case SwagBallTypes::DEFAULT:
+//                    // Adds the point
+//                    this->points++;
+//                    break;
+//
+//                case SwagBallTypes::DAMAGING:
+//                    this->player.takeDamage(1);
+//                    break;
+//
+//                case SwagBallTypes::HEALING:
+//                    // Adds the point
+//                    this->points++;
+//                    this->player.healHP(1);
+//                    break;
+//            }
+//
+//            // Removes the ball
+//            this->swagBalls.erase(this->swagBalls.begin() + i);
+//        }
+//    }
 }
 
 void PlayState::update() {
 
     this->pollEvents();
+    this->spawnSwagBalls();
+    this->player.update(this->window);
+    this->updateCollisions();
+
 }
 
 void PlayState::render() {
 
-    // Clears Screen
     this->window->clear();
 
-    // Finishes the rendering
+    //Render stuff
+    this->player.render(this->window);
+
+//    for (auto i : this->swagBalls){
+//
+//        i.render(this->window);
+//    }
+
+    //Displays frame
     this->window->display();
 }
+

@@ -1,84 +1,116 @@
-//
-// Created by skgart on 31/03/23.
-//
-
 #include "Player.h"
-#include <iostream>
-#include <SFML/Graphics.hpp>
-#include <SFML/System.hpp>
 
-using namespace sf;
-using namespace std;
+void Player::initVariables() {
 
-/*
-    Constructor
- */
-Player::Player() {
+    this->movementSpeed = 5.f;
+    this->hp = 10;
+    this->hpMax = this->hp;
+}
+
+void Player::initShape() {
+
+    this->shape.setFillColor(sf::Color::Blue);
+    this->shape.setSize(sf::Vector2f(50.f, 50.f));
+
+}
+
+// Constructor and Destructor
+Player::Player(float x, float y){
+
+    this->shape.setPosition(x, y);
+
+    this->initVariables();
+    this->initShape();
+}
+
+Player::~Player() {
 
 
 }
 
+// Accessors
+sf::RectangleShape Player::getShape() const {
 
-/*
-    Internal Functions
- */
-void Player::getSkills(){
-
-    // Paging is fun /s
+    return this->shape;
 }
 
-/**
- * \brief function in charge of monitoring inputs from the keyboard.
- * Updates the internal values of the class to check
- *
- */
-void Player::checkInputs() {
+const int & Player::getHP() const {
 
-    // Checks inputs when pressing Up
-    if (Keyboard::isKeyPressed(Keyboard::S)){
+    return this->hp;
+}
 
-        this->pressDown = true;
-        cout << "the down button is pressed" << endl;
+const int & Player::getHPMax() const {
+
+    return this->hpMax;
+}
+
+// Functions
+void Player::takeDamage(const int damage) {
+
+    if (this->hp > 0){
+
+        this->hp -= damage;
     }
-    else{
-        this->pressDown = false;
-    }
 
-    // Checks inputs when pressing Down
-    if (Keyboard::isKeyPressed((Keyboard::W))){
+    if (this->hp < 0){
 
-        this->pressUp = true;
-        cout << "the up button is pressed" << endl;
-    }
-    else{
-        this->pressUp = false;
+        this->hp = 0;
     }
 }
 
-void Player::movement() {
+void Player::healHP(const int health) {
 
-    if (this->pressDown){
+    if (this->hp < this->hpMax){
 
-        this->hitbox.move(Vector2f(0, 10));
+        this->hp += health;
     }
 
-    if (this->pressUp){
+    if (this->hp > this->hpMax){
 
-        this->hitbox.move(Vector2f(0, -10));
+        this->hp = this->hpMax;
     }
 }
 
-void Player::draw() {
+void Player::updateInput() {
 
+    // Vertical movement
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::W)){
+
+        this->shape.move(0.f, -this->movementSpeed);
+    }
+    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::S)){
+
+        this->shape.move(0.f, this->movementSpeed);
+    }
+}
+
+void Player::windowBoundsCollision(const sf::RenderTarget *target) {
+
+    // Up side of the window
+
+    if (this->shape.getGlobalBounds().top <= 0.f){
+
+        this->shape.setPosition(this->shape.getPosition().x, 0.f);
+    }
+        // Down side of the window
+    else if (this->shape.getGlobalBounds().top + this->shape.getGlobalBounds().height >= target->getSize().y){
+
+        this->shape.setPosition(this->shape.getPosition().x, target->getSize().y - this->shape.getGlobalBounds().width);
+    }
 
 }
 
-/**
- * \brief Function in charge of updating values repeatedly.
- * It should only be called during the rendering process
- */
-void Player::update() {
+void Player::update(const sf::RenderTarget * target){
 
-    checkInputs();
-    movement();
+    //Keyboard Input
+    this->updateInput();
+
+    // Window Bounds Collision
+    this->windowBoundsCollision(target);
+
+}
+
+void Player::render(sf::RenderTarget *target) {
+
+    target->draw(this->shape);
 }

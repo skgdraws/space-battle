@@ -1,47 +1,51 @@
-//
-// Created by skgart on 31/03/23.
-//
+#ifndef DRAGGINGBALLS_GAME_H
+#define DRAGGINGBALLS_GAME_H
 
-#ifndef SPACE_BATTLE_PLAYSTATE_H
-#define SPACE_BATTLE_PLAYSTATE_H
-
-#include <SFML/Graphics.hpp>
-#include <SFML/Window.hpp>
-#include <SFML/System.hpp>
+#include <ctime>
+#include "Player.h"
 
 class PlayState {
 
 private:
 
-    // Rendering Variables
+    sf::VideoMode videoMode;
     sf::RenderWindow* window;
+    bool endGame;
+
     sf::Event ev;
 
+    Player player;
+
+    // Enemy logic
+    float spawnTimerMax;
+    float spawnTimer;
+    int waveNumber;
+
+    int points;
+    sf::Font font;
+    sf::Text guiText;
+
     void initVariables();
-
     void initWindow();
-
-    // Player
-    // Waves and Settings
-    // Enemies
-    // Arduino
-    // Skills
-    // Score
 
 public:
 
+    // Constructors and Destructors
     PlayState();
+    ~PlayState();
 
-    virtual ~PlayState();
-
+    // Accessors
     const bool running() const;
 
-    void render();
+    // Modifiers
 
+    // Functions
     void pollEvents();
-
+    void spawnSwagBalls();
+    void updateCollisions();
     void update();
+    void render();
 };
 
 
-#endif //SPACE_BATTLE_PLAYSTATE_H
+#endif //DRAGGINGBALLS_GAME_H
