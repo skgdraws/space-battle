@@ -16,7 +16,7 @@ private:
 
 public:
     std::vector<int> waves;
-    LinkedList<Enemy> enemies;
+    LinkedList<SwagBall> enemies;
 
     Wave();
     void display();

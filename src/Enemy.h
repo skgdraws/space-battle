@@ -1,5 +1,5 @@
-#ifndef SPACE_BATTLE_ENEMY_H
-#define SPACE_BATTLE_ENEMY_H
+#ifndef SPACE_BATTLE_SWAGBALL_H
+#define SPACE_BATTLE_SWAGBALL_H
 
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
@@ -7,35 +7,37 @@
 #include <SFML/Audio.hpp>
 #include <SFML/Network.hpp>
 
-enum EnemyTypes{
+enum SwagBallTypes{
 
-    REGULAR = 0,
-    MOVING,
-    TANK
+    DEFAULT = 0,
+    DAMAGING,
+    HEALING,
+    NROFTYPES
 };
 
-class Enemy {
+class SwagBall {
 
 private:
 
-    sf::RectangleShape shape;
+    sf::CircleShape shape;
     int type;
 
-    void initShape();
+    void initShape(const sf::RenderWindow & window);
 
 public:
 
     // Constructor and Destructor
-    Enemy();
-    virtual ~Enemy();
+    SwagBall(const sf::RenderWindow & window, int type);
+    virtual ~SwagBall();
 
-    // Accessors
+    sf::CircleShape getShape() const;
+    const int& getType() const;
 
     // Functions
-    void draw(sf::RenderWindow* target);
+    void updateCollision();
     void update();
-
+    void render(sf::RenderTarget * target);
 };
 
 
-#endif //SPACE_BATTLE_ENEMY_H
+#endif //SPACE_BATTLE_SWAGBALL_H

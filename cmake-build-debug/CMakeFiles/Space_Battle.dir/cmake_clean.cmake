@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_4.cpp.o.d"
   "CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.o"
   "CMakeFiles/Space_Battle.dir/src/Enemies/Enemy_5.cpp.o.d"
+  "CMakeFiles/Space_Battle.dir/src/Enemy.cpp.o"
+  "CMakeFiles/Space_Battle.dir/src/Enemy.cpp.o.d"
   "CMakeFiles/Space_Battle.dir/src/PlayState.cpp.o"
   "CMakeFiles/Space_Battle.dir/src/PlayState.cpp.o.d"
   "CMakeFiles/Space_Battle.dir/src/Player.cpp.o"

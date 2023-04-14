@@ -1,24 +1,20 @@
-#include <iostream>
-#include "stdio.h"
 #include "PlayState.h"
-
-using namespace std;
-using namespace sf;
 
 int main() {
 
-    //Game init
+    // Initialize Random Seed
+    srand(static_cast<unsigned>(time(0)));
+
+    // Initialize Game Obj
     PlayState playstate;
 
-    // while loop to let the game run
-    while (playstate.running()) {
+    // Game Loop
+    while (playstate.running()){
 
-        // Update
         playstate.update();
-
-        // Rendering
         playstate.render();
     }
 
+    // End of Application
     return 0;
 }

@@ -1,48 +1,54 @@
-//
-// Created by skgart on 31/03/23.
-//
+#ifndef SPACE_BATTLE_GAME_H
+#define SPACE_BATTLE_GAME_H
 
-#ifndef SPACE_BATTLE_PLAYSTATE_H
-#define SPACE_BATTLE_PLAYSTATE_H
-
-#include <SFML/Graphics.hpp>
-#include <SFML/Window.hpp>
-#include <SFML/System.hpp>
-#include<cstdlib>
-#include "Enemies/Enemy_1.h"
+#include <ctime>
+#include <iostream>
+#include <vector>
+#include "Player.h"
+#include "Enemy.h"
 
 class PlayState {
+
 private:
 
-    // Rendering Variables
+    sf::VideoMode videoMode;
     sf::RenderWindow* window;
+    bool endGame;
+
     sf::Event ev;
 
+    Player player;
+
+    std::vector<SwagBall> enemies;
+    float spawnTimerMax;
+    float spawnTimer;
+    int maxEnemies;
+
+    int points;
+    //sf::Font font;
+    //sf::Text guiText;
+
     void initVariables();
-
     void initWindow();
-
-    // Player
-    // Waves and Settings
-    // Enemies
-    // Arduino
-    // Skills
-    // Score
 
 public:
 
+    // Constructors and Destructors
     PlayState();
+    ~PlayState();
 
-    virtual ~PlayState();
-
+    // Accessors
     const bool running() const;
 
-    void render();
+    // Modifiers
 
+    // Functions
     void pollEvents();
-
+    void spawnSwagBalls();
+    void updateCollisions();
     void update();
+    void render();
 };
 
 
-#endif //SPACE_BATTLE_PLAYSTATE_H
+#endif //SPACE_BATTLE_GAME_H
