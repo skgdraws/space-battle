@@ -1,7 +1,3 @@
-//
-// Created by jose on 4/9/23.
-//
-
 #ifndef SPACE_BATTLE_WAVE_H
 #define SPACE_BATTLE_WAVE_H
 

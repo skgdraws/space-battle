@@ -20,15 +20,22 @@ class Enemy {
 
 private:
 
+    // Sprites and Type
     sf::CircleShape shape;
+    sf::Texture texture;
+    sf::Sprite sprite;
     int type;
 
-    void initShape(const sf::RenderWindow & window);
+    // Health
+    int health;
+
+    // Private Functions
+    void initShape();
 
 public:
 
     // Constructor and Destructor
-    Enemy(const sf::RenderWindow & window, int type);
+    Enemy();
     virtual ~Enemy();
 
     sf::CircleShape getShape() const;

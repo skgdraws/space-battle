@@ -11,12 +11,15 @@ class Player {
 
 private:
 
+    // Sprites and Textures
     sf::RectangleShape shape;
+
+    // Player Variables
+    int hpMax;
+    int hp;
     float movementSpeed;
 
-    int hp;
-    int hpMax;
-
+    // Private Functions
     void initVariables();
     void initShape();
 
@@ -31,12 +34,17 @@ public:
     const int& getHP() const;
     const int& getHPMax() const;
 
-    // Functions
+    // Health checks and changers
     void takeDamage(const int damage);
     void healHP(const int health);
 
+    // Inputs
     void updateInput();
+
+    // Checks collisions
     void windowBoundsCollision(const sf::RenderTarget * target);
+
+    // Updating and Rendering process
     void update(const sf::RenderTarget * target);
     void render(sf::RenderTarget * target);
 };

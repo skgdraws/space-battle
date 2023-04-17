@@ -5,8 +5,18 @@ int main() {
     // Initialize Random Seed
     srand(static_cast<unsigned>(time(0)));
 
+    // Checking difficulty options
+    int difficulty;
+
+    std::cout << "Select Difficulty \n"
+                 "1 - Easy\n"
+                 "2 - Medium\n"
+                 "3 - Expert" << std::endl;
+
+    std::cin >> difficulty;
+
     // Initialize Game Obj
-    PlayState playstate;
+    PlayState playstate = *new PlayState();
 
     // Game Loop
     while (playstate.running()){

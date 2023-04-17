@@ -1,14 +1,26 @@
 #include "PlayState.h"
 
+/**
+ * \brief Initializes important gameplay variables needed for the game to run correctly
+ */
 void PlayState::initVariables() {
 
+    this->waves[0] = 12/2;
+    this->waves[1] = 12/2;
+    this->waves[2] = 12/2;
+    this->waves[3] = 12/2;
+    this->waves[4] = 12/2;
+
     this->endGame = false;
-    this->spawnTimerMax = 60.f;
-    this->spawnTimer = this->spawnTimerMax;
-    this->maxEnemies = 5;
+    this->maxEnemiesSpawnTimer = this->waves[0];
+    this->enemiesSpawnTimer = this->maxEnemiesSpawnTimer;
+    this->maxEnemies = 10;
     this->points = 0;
 }
 
+/**
+ * \brief Initializes the App's render window
+ */
 void PlayState::initWindow() {
 
     this->videoMode = sf::VideoMode(800, 600);
@@ -17,6 +29,9 @@ void PlayState::initWindow() {
 }
 
 // Constructors and Destructors
+/**
+ * \brief Class that handles all of the game's logic
+ */
 PlayState::PlayState(){
 
     this->initVariables();
@@ -28,12 +43,19 @@ PlayState::~PlayState(){
     delete this->window;
 }
 
-// Functions
+/**
+ * \brief Returns the value true if the game is running. Used for the game's while loop
+ *
+ * @return bool
+ */
 const bool PlayState::running() const {
 
     return this->window->isOpen();
 }
 
+/**
+ * \brief Made to handle SFML's Event system. Is in charge of checking if you exit the program
+ */
 void PlayState::pollEvents() {
 
     while (this->window->pollEvent(this->ev)){
@@ -57,78 +79,65 @@ void PlayState::pollEvents() {
 
 void PlayState::spawnEnemies() {
 
-    //timer shennanigans
-    if (this->spawnTimer < this->spawnTimerMax){
+   //timer shenanigans
+   if (this->enemiesSpawnTimer < this->maxEnemiesSpawnTimer){
 
-        this->spawnTimer += 1.f;
-    }
-    else{
+       this->enemiesSpawnTimer += 1.f;
+   }
+   else{
+       if (this->curWave.getSize() < this->maxEnemies){
 
-        if (this->enemies.getSize() < this->maxEnemies){
-
-            this->enemies.insertNode(Enemy(*this->window, rand() % SwagBallTypes::NROFTYPES));
-            this->spawnTimer = 0.f;
-        }
-    }
+           this->curWave.insertNode(*new Enemy());
+           this->enemiesSpawnTimer = 0.f;
+       }
+   }
 }
 
-void PlayState::updateCollisions() {
+void PlayState::updateEnemies() {
 
-    for (int i = 0; i < enemies.getSize(); i++){
 
-        if (this->player.getShape().getGlobalBounds().intersects(this->enemies.inPosition(i)->data.getShape().getGlobalBounds())){
-
-            switch(this->enemies.inPosition(i)->data.getType()) {
-
-                case SwagBallTypes::DEFAULT:
-                    // Adds the point
-                    this->points++;
-                    std::cout << this->points << std::endl;
-                    break;
-
-                case SwagBallTypes::DAMAGING:
-                    this->player.takeDamage(1);
-                    break;
-
-                case SwagBallTypes::HEALING:
-                    // Adds the point
-                    this->points++;
-                    this->player.healHP(1);
-                    break;
-            }
-
-            // Removes the ball
-            this->enemies.deleteNode(i);
-        }
-    }
 }
 
+void PlayState::updateBullets() {
+
+    // Using the Linked List/Garbage Collector check if the player's bullets exit the screen and add it to the garbage collector
+}
+
+/**
+ * Updates values at runtime. Is in charge of input and changing positions to sprites as well as dealing
+ * with the game's logic in it's entirety
+ */
 void PlayState::update() {
 
     this->pollEvents();
     this->spawnEnemies();
 
-    for (int i = 0; i <= this->enemies.getSize(); i++){
+    for (int i = 0 ; i < this->curWave.getSize() ; i++){
 
-        this->enemies.inPosition(i)->data.update();
-        std::cout << "Enemy: " << i << std::endl;
+        // std::cout << *this->curWave.inPosition(i)->data << std::endl;
+        this->curWave.inPosition(i)->data.update();
     }
 
     this->player.update(this->window);
-    this->updateCollisions();
+    // this->updateCollisions();
 
 }
 
+/**
+ * \brief Handles the rendering of the entire game displaying each sprite after being updated
+ *
+ */
 void PlayState::render() {
 
+    // Clears previous frame
     this->window->clear();
 
     //Render stuff
     this->player.render(this->window);
 
-    for (int i = 0; i <= this->enemies.getSize(); i++){
+    for (int i = 0 ; i < this->curWave.getSize() ; i++){
 
-        this->enemies.inPosition(i)->data.render(this->window);
+        this->curWave.inPosition(i)->data.render(this->window);
     }
 
     //Displays frame

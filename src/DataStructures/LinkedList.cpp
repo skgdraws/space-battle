@@ -1,7 +1,3 @@
-//
-// Created by jose on 3/23/23.
-//
-
 #include "LinkedList.h"
 #include <iostream>
 #include "stdio.h"

@@ -13,23 +13,31 @@ class PlayState {
 
 private:
 
+    // Screen Variables
     sf::VideoMode videoMode;
     sf::RenderWindow* window;
-    bool endGame;
-
     sf::Event ev;
 
+    // Ending game
+    bool endGame;
+
+    // Player Variables
     Player player;
-
-    LinkedList<Enemy> enemies;
-    float spawnTimerMax;
-    float spawnTimer;
-    int maxEnemies;
-
     int points;
-    //sf::Font font;
-    //sf::Text guiText;
+    // Add Garbage collector here
 
+    // Enemy variables
+    int waves[5];
+    LinkedList<Enemy> curWave;
+    int maxEnemies;
+    int enemiesSpawnTimer;
+    int maxEnemiesSpawnTimer;
+
+    // GUI Stuff
+    sf::Font font;
+    sf::Text guiText;
+
+    // Private Functions
     void initVariables();
     void initWindow();
 
@@ -42,12 +50,15 @@ public:
     // Accessors
     const bool running() const;
 
-    // Modifiers
-
-    // Functions
+    // Input
     void pollEvents();
+
+    // Entity Updating
     void spawnEnemies();
-    void updateCollisions();
+    void updateEnemies();
+    void updateBullets();
+
+    // Game running
     void update();
     void render();
 };

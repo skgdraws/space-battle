@@ -1,7 +1,3 @@
-//
-// Created by jose on 4/9/23.
-//
-
 #include "Wave.h"
 
 Wave::Wave() {// For now, when the difficulty sets in, rewrite the constructor.

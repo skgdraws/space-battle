@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Space_Battle.dir/src/DTO/Bullet.cpp.o"
+  "CMakeFiles/Space_Battle.dir/src/DTO/Bullet.cpp.o.d"
+  "CMakeFiles/Space_Battle.dir/src/DTO/BulletCollector.cpp.o"
+  "CMakeFiles/Space_Battle.dir/src/DTO/BulletCollector.cpp.o.d"
   "CMakeFiles/Space_Battle.dir/src/DTO/Wave.cpp.o"
   "CMakeFiles/Space_Battle.dir/src/DTO/Wave.cpp.o.d"
   "CMakeFiles/Space_Battle.dir/src/DataStructures/LinkedList.cpp.o"

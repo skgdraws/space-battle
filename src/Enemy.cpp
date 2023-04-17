@@ -1,7 +1,7 @@
 #include "Enemy.h"
 
 // Private functions
-void Enemy::initShape(const sf::RenderWindow & window) {
+void Enemy::initShape() {
 
     this->shape.setRadius(static_cast<float>(rand()%10+10));
     sf::Color color;
@@ -28,17 +28,15 @@ void Enemy::initShape(const sf::RenderWindow & window) {
     this->shape.setFillColor(color);
 
     this->shape.setPosition(sf::Vector2f(
-            window.getSize().x - this->shape.getGlobalBounds().width/2,
-            static_cast<float>(rand()%window.getSize().y - this->shape.getGlobalBounds().height)
+            800 - this->shape.getGlobalBounds().width/2,
+            static_cast<float>(rand()%600 - this->shape.getGlobalBounds().height)
     ));
 }
 
 // Constructor and Destructor
-Enemy::Enemy(const sf::RenderWindow& window, int type)
-        : type(type)
-{
+Enemy::Enemy(){
 
-    initShape(window);
+    initShape();
 }
 
 Enemy::~Enemy() {
