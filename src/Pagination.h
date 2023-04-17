@@ -7,6 +7,8 @@
 
 #include <iostream>
 #include "stdio.h"
+#include "Libs/pugixml/src/pugiconfig.hpp"
+#include "Libs/pugixml/src/pugixml.hpp"
 #include <ctime>
 
 using namespace std;
@@ -15,10 +17,11 @@ class Pagination {
 private:
     string lastLoaded;
 
-    string Stg_1 = "Strategy 01";
-    string Stg_2 = "Strategy 02";
-    string Stg_3 = "Strategy 03";
-    string Stg_4 = "Strategy 04";
+    //Cambiar por archivos XML
+    string Stg_1 = "Strategy_1";
+    string Stg_2 = "Strategy_2";
+    string Stg_3 = "Strategy_3";
+    string Stg_4 = "Strategy_4";
 
     void swap(string std);
     void delay(int secs);
