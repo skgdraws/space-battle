@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/233/bin/cmake/linux/x64/bin/cmake
+CMAKE_COMMAND = /home/jose/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/233/bin/cmake/linux/x64/bin/cmake -E rm -f
+RM = /home/jose/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/skgart/space-battle
+CMAKE_SOURCE_DIR = /home/jose/Desktop/TEC/CE2103/space-battle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/skgart/space-battle/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/skgart/space-battle/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/233/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/jose/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/233/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/jose/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/skgart/space-battle/cmake-build-debug/CMakeFiles /home/skgart/space-battle/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/skgart/space-battle/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -225,6 +225,30 @@ src/Enemy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/src/Enemy.cpp.s
 .PHONY : src/Enemy.cpp.s
 
+src/Pagination.o: src/Pagination.cpp.o
+.PHONY : src/Pagination.o
+
+# target to build an object file
+src/Pagination.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/src/Pagination.cpp.o
+.PHONY : src/Pagination.cpp.o
+
+src/Pagination.i: src/Pagination.cpp.i
+.PHONY : src/Pagination.i
+
+# target to preprocess a source file
+src/Pagination.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/src/Pagination.cpp.i
+.PHONY : src/Pagination.cpp.i
+
+src/Pagination.s: src/Pagination.cpp.s
+.PHONY : src/Pagination.s
+
+# target to generate assembly for a file
+src/Pagination.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/src/Pagination.cpp.s
+.PHONY : src/Pagination.cpp.s
+
 src/PlayState.o: src/PlayState.cpp.o
 .PHONY : src/PlayState.o
 
@@ -318,6 +342,9 @@ help:
 	@echo "... src/Enemy.o"
 	@echo "... src/Enemy.i"
 	@echo "... src/Enemy.s"
+	@echo "... src/Pagination.o"
+	@echo "... src/Pagination.i"
+	@echo "... src/Pagination.s"
 	@echo "... src/PlayState.o"
 	@echo "... src/PlayState.i"
 	@echo "... src/PlayState.s"

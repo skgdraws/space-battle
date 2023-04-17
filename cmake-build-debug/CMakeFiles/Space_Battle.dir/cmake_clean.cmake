@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Space_Battle.dir/src/DataStructures/Node.cpp.o.d"
   "CMakeFiles/Space_Battle.dir/src/Enemy.cpp.o"
   "CMakeFiles/Space_Battle.dir/src/Enemy.cpp.o.d"
+  "CMakeFiles/Space_Battle.dir/src/Pagination.cpp.o"
+  "CMakeFiles/Space_Battle.dir/src/Pagination.cpp.o.d"
   "CMakeFiles/Space_Battle.dir/src/PlayState.cpp.o"
   "CMakeFiles/Space_Battle.dir/src/PlayState.cpp.o.d"
   "CMakeFiles/Space_Battle.dir/src/Player.cpp.o"
