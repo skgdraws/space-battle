@@ -12,7 +12,7 @@ void PlayState::initVariables() {
     this->waves[4] = 12/2;
 
     this->endGame = false;
-    this->maxEnemiesSpawnTimer = this->waves[0];
+    this->maxEnemiesSpawnTimer = this->waves[0] + 10;
     this->enemiesSpawnTimer = this->maxEnemiesSpawnTimer;
     this->maxEnemies = 10;
     this->points = 0;
@@ -80,7 +80,7 @@ void PlayState::pollEvents() {
 void PlayState::spawnEnemies() {
 
    //timer shenanigans
-   if (this->enemiesSpawnTimer < this->maxEnemiesSpawnTimer + 5){
+   if (this->enemiesSpawnTimer < this->maxEnemiesSpawnTimer){
 
        this->enemiesSpawnTimer += 1.f;
    }
