@@ -3,7 +3,7 @@
 /**
  * \brief Initializes important gameplay variables needed for the game to run correctly
  */
-void PlayState::initVariables() {
+void PlayState::initVariables(int diff) {
 
     // Wave Setup
     this->waves[0] = 10;
@@ -13,8 +13,9 @@ void PlayState::initVariables() {
     this->waves[4] = 18;
 
     this->endGame = false;
+    this->difficulty = diff;
     this->wave = 0;
-    this->maxEnemiesSpawnTimer = this->waves[0];
+    this->maxEnemiesSpawnTimer = this->waves[0] * 5 * diff;
     this->enemiesSpawnTimer = this->maxEnemiesSpawnTimer;
     this->maxEnemies = 10;
     this->numEnemies = -1;
@@ -35,9 +36,9 @@ void PlayState::initWindow() {
 /**
  * \brief Class that handles all of the game's logic
  */
-PlayState::PlayState(){
+PlayState::PlayState(int diff){
 
-    this->initVariables();
+    this->initVariables(diff);
     this->initWindow();
 }
 
@@ -84,7 +85,7 @@ void PlayState::spawnEnemies() {
 
     if (wave <= 4){
 
-        if (numEnemies == 0){
+        if (this->numEnemies == 0 && this->maxEnemies == 0){
 
             wave++;
             this->maxEnemies = this->waves[wave];
@@ -135,7 +136,7 @@ void PlayState::updateEnemies() {
             std::cout << "You got hurt" << endl;
 
             std::cout << "Enemy " << i << " Positions: ";
-            std::cout << this->curWave.inPosition(i)->data.getShape().getPosition().y << ", " << this->curWave.inPosition(i)->data.getShape().getPosition().y << std::endl;
+            std::cout << this->curWave.inPosition(i)->data.getShape().getPosition().x << ", " << this->curWave.inPosition(i)->data.getShape().getPosition().y << std::endl;
 
             this->numEnemies--;
             this->maxEnemies--;
@@ -162,14 +163,14 @@ void PlayState::update() {
 
     for (int i = 0 ; i < this->curWave.getSize() ; i++){
 
-        // std::cout << *this->curWave.inPosition(i)->data << std::endl;
         this->curWave.inPosition(i)->data.update();
-
-        }
+    }
 
     this->player.update(this->window);
+
     this->updateEnemies();
-    // this->updateCollisions();
+    // this->playerCollisions();
+    this->updateBullets();
 
 }
 

@@ -27,6 +27,7 @@ private:
     // Add Garbage collector here
 
     // Enemy variables
+    int difficulty;
     int waves[5];
     int wave;
     LinkedList<Enemy> curWave;
@@ -40,13 +41,13 @@ private:
     sf::Text guiText;
 
     // Private Functions
-    void initVariables();
+    void initVariables(int diff);
     void initWindow();
 
 public:
 
     // Constructors and Destructors
-    PlayState();
+    PlayState(int diff = 1);
     ~PlayState();
 
     // Accessors
@@ -57,6 +58,7 @@ public:
 
     // Entity Updating
     void spawnEnemies();
+    void playerCollisions();
     void updateEnemies();
     void updateBullets();
 

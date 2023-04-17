@@ -42,7 +42,6 @@ public:
     const int& getType() const;
 
     // Functions
-    void updateCollision();
     void update();
     void render(sf::RenderTarget * target);
 };

@@ -4,12 +4,13 @@
 void Enemy::initShape() {
 
     this->shape.setRadius(static_cast<float>(rand()%10+10));
+    this->type = static_cast<int>(rand()%SwagBallTypes::NROFTYPES);
     sf::Color color;
 
     switch(this->type){
 
         case DEFAULT:
-            color = sf::Color(rand() % 255 + 1, rand() % 255 + 1, rand() % 255 + 1);
+            color = sf::Color::Yellow;
             break;
 
         case DAMAGING:

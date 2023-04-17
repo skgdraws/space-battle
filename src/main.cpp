@@ -16,7 +16,7 @@ int main() {
     std::cin >> difficulty;
 
     // Initialize Game Obj
-    PlayState playstate = *new PlayState();
+    PlayState playstate(difficulty);
 
     // Game Loop
     while (playstate.running()){
