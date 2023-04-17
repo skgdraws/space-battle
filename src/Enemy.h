@@ -6,6 +6,7 @@
 #include <SFML/Window.hpp>
 #include <SFML/Audio.hpp>
 #include <SFML/Network.hpp>
+#include <iostream>
 
 enum SwagBallTypes{
 
@@ -15,7 +16,7 @@ enum SwagBallTypes{
     NROFTYPES
 };
 
-class SwagBall {
+class Enemy {
 
 private:
 
@@ -27,8 +28,8 @@ private:
 public:
 
     // Constructor and Destructor
-    SwagBall(const sf::RenderWindow & window, int type);
-    virtual ~SwagBall();
+    Enemy(const sf::RenderWindow & window, int type);
+    virtual ~Enemy();
 
     sf::CircleShape getShape() const;
     const int& getType() const;

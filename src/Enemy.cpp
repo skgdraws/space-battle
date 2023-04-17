@@ -1,7 +1,7 @@
 #include "Enemy.h"
 
 // Private functions
-void SwagBall::initShape(const sf::RenderWindow & window) {
+void Enemy::initShape(const sf::RenderWindow & window) {
 
     this->shape.setRadius(static_cast<float>(rand()%10+10));
     sf::Color color;
@@ -34,34 +34,37 @@ void SwagBall::initShape(const sf::RenderWindow & window) {
 }
 
 // Constructor and Destructor
-SwagBall::SwagBall(const sf::RenderWindow& window, int type)
+Enemy::Enemy(const sf::RenderWindow& window, int type)
         : type(type)
 {
 
     initShape(window);
 }
 
-SwagBall::~SwagBall() {
+Enemy::~Enemy() {
 
 
 }
 
-sf::CircleShape SwagBall::getShape() const {
+sf::CircleShape Enemy::getShape() const {
 
     return this->shape;
 }
 
-const int & SwagBall::getType() const {
+const int & Enemy::getType() const {
 
+    return this->type;
 }
 
 // Functions
-void SwagBall::update(){
+void Enemy::update(){
 
-    this->shape.move(sf::Vector2f(-10.f, 0.f));
+    std::cout << "we're moving" << std::endl;
+    this->shape.move(-5.f , 0.f);
+    // this->shape.move(sf::Vector2f(-10.f, 0.f));
 }
 
-void SwagBall::render(sf::RenderTarget *target) {
+void Enemy::render(sf::RenderTarget *target) {
 
     target->draw(this->shape);
 }

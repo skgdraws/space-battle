@@ -16,7 +16,7 @@ private:
 
 public:
     std::vector<int> waves;
-    LinkedList<SwagBall> enemies;
+    LinkedList<Enemy> enemies;
 
     Wave();
     void display();
@@ -24,4 +24,4 @@ public:
 };
 
 
-#endif //SPACE_BATTLE_WAVW_H
+#endif //SPACE_BATTLE_WAVE_H

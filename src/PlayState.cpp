@@ -3,9 +3,9 @@
 void PlayState::initVariables() {
 
     this->endGame = false;
-    this->spawnTimerMax = 10.f;
+    this->spawnTimerMax = 60.f;
     this->spawnTimer = this->spawnTimerMax;
-    this->maxEnemies = 10;
+    this->maxEnemies = 5;
     this->points = 0;
 }
 
@@ -55,7 +55,7 @@ void PlayState::pollEvents() {
     }
 }
 
-void PlayState::spawnSwagBalls() {
+void PlayState::spawnEnemies() {
 
     //timer shennanigans
     if (this->spawnTimer < this->spawnTimerMax){
@@ -64,9 +64,9 @@ void PlayState::spawnSwagBalls() {
     }
     else{
 
-        if (this->enemies.size() < this->maxEnemies){
+        if (this->enemies.getSize() < this->maxEnemies){
 
-            this->enemies.push_back(SwagBall(*this->window, rand()%SwagBallTypes::NROFTYPES));
+            this->enemies.insertNode(Enemy(*this->window, rand() % SwagBallTypes::NROFTYPES));
             this->spawnTimer = 0.f;
         }
     }
@@ -74,11 +74,11 @@ void PlayState::spawnSwagBalls() {
 
 void PlayState::updateCollisions() {
 
-    for (int i = 0; i < enemies.size(); i++){
+    for (int i = 0; i < enemies.getSize(); i++){
 
-        if (this->player.getShape().getGlobalBounds().intersects(this->enemies[i].getShape().getGlobalBounds())){
+        if (this->player.getShape().getGlobalBounds().intersects(this->enemies.inPosition(i)->data.getShape().getGlobalBounds())){
 
-            switch(this->enemies[i].getType()) {
+            switch(this->enemies.inPosition(i)->data.getType()) {
 
                 case SwagBallTypes::DEFAULT:
                     // Adds the point
@@ -98,7 +98,7 @@ void PlayState::updateCollisions() {
             }
 
             // Removes the ball
-            this->enemies.erase(this->enemies.begin() + i);
+            this->enemies.deleteNode(i);
         }
     }
 }
@@ -106,15 +106,16 @@ void PlayState::updateCollisions() {
 void PlayState::update() {
 
     this->pollEvents();
-    this->spawnSwagBalls();
+    this->spawnEnemies();
 
-    for (auto i : this->enemies){
+    for (int i = 0; i <= this->enemies.getSize(); i++){
 
-        i.update();
+        this->enemies.inPosition(i)->data.update();
+        std::cout << "Enemy: " << i << std::endl;
     }
 
     this->player.update(this->window);
-    // this->updateCollisions();
+    this->updateCollisions();
 
 }
 
@@ -125,10 +126,9 @@ void PlayState::render() {
     //Render stuff
     this->player.render(this->window);
 
-    for (auto i : this->enemies){
+    for (int i = 0; i <= this->enemies.getSize(); i++){
 
-
-        i.render(this->window);
+        this->enemies.inPosition(i)->data.render(this->window);
     }
 
     //Displays frame

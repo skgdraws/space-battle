@@ -4,6 +4,7 @@
 #include <ctime>
 #include <iostream>
 #include <vector>
+#include "DataStructures/LinkedList.h"
 #include "Player.h"
 #include "Enemy.h"
 
@@ -19,7 +20,7 @@ private:
 
     Player player;
 
-    std::vector<SwagBall> enemies;
+    LinkedList<Enemy> enemies;
     float spawnTimerMax;
     float spawnTimer;
     int maxEnemies;
@@ -44,7 +45,7 @@ public:
 
     // Functions
     void pollEvents();
-    void spawnSwagBalls();
+    void spawnEnemies();
     void updateCollisions();
     void update();
     void render();
