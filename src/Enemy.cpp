@@ -57,7 +57,7 @@ const int & Enemy::getType() const {
 // Functions
 void Enemy::update(){
 
-    std::cout << "we're moving" << std::endl;
+    // std::cout << "we're moving" << std::endl;
     this->shape.move(-5.f , 0.f);
     // this->shape.move(sf::Vector2f(-10.f, 0.f));
 }

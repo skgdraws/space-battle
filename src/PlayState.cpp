@@ -5,16 +5,19 @@
  */
 void PlayState::initVariables() {
 
-    this->waves[0] = 12/2;
-    this->waves[1] = 12/2;
-    this->waves[2] = 12/2;
-    this->waves[3] = 12/2;
-    this->waves[4] = 12/2;
+    // Wave Setup
+    this->waves[0] = 10;
+    this->waves[1] = 12;
+    this->waves[2] = 14;
+    this->waves[3] = 16;
+    this->waves[4] = 18;
 
     this->endGame = false;
+    this->wave = 0;
     this->maxEnemiesSpawnTimer = this->waves[0];
     this->enemiesSpawnTimer = this->maxEnemiesSpawnTimer;
     this->maxEnemies = 10;
+    this->numEnemies = -1;
     this->points = 0;
 }
 
@@ -79,6 +82,21 @@ void PlayState::pollEvents() {
 
 void PlayState::spawnEnemies() {
 
+    if (wave <= 4){
+
+        if (numEnemies == 0){
+
+            wave++;
+            this->maxEnemies = this->waves[wave];
+
+            std::cout << "Current Wave: " << wave << "/5\n" << std::endl;
+        }
+    }
+    else{
+
+        this->window->close();
+    }
+
    //timer shenanigans
    if (this->enemiesSpawnTimer < this->maxEnemiesSpawnTimer){
 
@@ -89,13 +107,43 @@ void PlayState::spawnEnemies() {
 
            this->curWave.insertNode(*new Enemy());
            this->enemiesSpawnTimer = 0.f;
+
+           if (numEnemies <= 0)
+               this->numEnemies = 1;
+           else
+               this->numEnemies++;
        }
    }
 }
 
 void PlayState::updateEnemies() {
 
+    for (int i = 0 ; i < this->curWave.getSize() ; i++){
 
+        if (this->curWave.inPosition(i)->data.getShape().getGlobalBounds().top <= 0){
+
+            this->curWave.inPosition(i)->data.getShape().setPosition(this->curWave.inPosition(i)->data.getShape().getPosition().x, 0);
+        }
+        else if (this->curWave.inPosition(i)->data.getShape().getGlobalBounds().top + this->curWave.inPosition(i)->data.getShape().getGlobalBounds().height >= 600){
+
+            this->curWave.inPosition(i)->data.getShape().setPosition(this->curWave.inPosition(i)->data.getShape().getPosition().x, 600 - this->curWave.inPosition(i)->data.getShape().getGlobalBounds().height);
+        }
+
+        if (this->curWave.inPosition(i)->data.getShape().getGlobalBounds().left <= 0){
+
+            // std::cout << "Enemy " << i << " is wrapping" << std::endl;
+            std::cout << "You got hurt" << endl;
+
+            std::cout << "Enemy " << i << " Positions: ";
+            std::cout << this->curWave.inPosition(i)->data.getShape().getPosition().y << ", " << this->curWave.inPosition(i)->data.getShape().getPosition().y << std::endl;
+
+            this->numEnemies--;
+            this->maxEnemies--;
+
+            this->curWave.deleteNode(i);
+            std::cout << "Current ammount of enemies: " << this->curWave.getSize() << std::endl;
+        }
+    }
 }
 
 void PlayState::updateBullets() {
@@ -116,9 +164,11 @@ void PlayState::update() {
 
         // std::cout << *this->curWave.inPosition(i)->data << std::endl;
         this->curWave.inPosition(i)->data.update();
-    }
+
+        }
 
     this->player.update(this->window);
+    this->updateEnemies();
     // this->updateCollisions();
 
 }

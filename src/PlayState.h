@@ -28,7 +28,9 @@ private:
 
     // Enemy variables
     int waves[5];
+    int wave;
     LinkedList<Enemy> curWave;
+    int numEnemies;
     int maxEnemies;
     int enemiesSpawnTimer;
     int maxEnemiesSpawnTimer;
