@@ -1,10 +1,26 @@
+//
+// Created by jose on 3/20/23.
+//
+
 #include "LinkedList.h"
 #include <iostream>
 #include "stdio.h"
 
 using namespace std;
 
-template<class T>
+/*
+ * Contructor
+ */
+template <class T>
+LinkedList<T>::LinkedList(){
+    head = nullptr;
+    tail = nullptr;
+    size = 0;
+}
+ /*
+  * Principal methods
+  */
+template <class T>
 /**
  * @brief Create a Node for to be inserted in the Linked List.
  *
@@ -18,7 +34,7 @@ void LinkedList<T>::insertNode(T data) {
 }
 
 /**
- * @brief Inserte the Node at the end of the Linked List.
+ * \brief Inserte the Node at the end of the Linked List.
  *
  * @tparam T
  * @param node
@@ -37,7 +53,7 @@ void LinkedList<T>::insertNode(Node<T>* node) {
 }
 
 /**
- * @brief Delete a Node in the position i.
+ * \brief Delete a Node in the position i.
  *
  * @tparam T
  * @param i
@@ -64,7 +80,7 @@ Node<T> *LinkedList<T>::deleteNode(int i) {
 }
 
 /**
- * @brief Get the size of the Linked List.
+ * \brief Get the size of the Linked List.
  *
  * @tparam T
  * @return size
@@ -75,7 +91,7 @@ int LinkedList<T>::getSize() {
 }
 
 /**
- * Get the Node in the position i.
+ * \brief Get the Node in the position i.
  *
  * @tparam T
  * @param i

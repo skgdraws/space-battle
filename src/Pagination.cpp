@@ -22,6 +22,13 @@ void Pagination::set() {
     }
 }
 
+/**
+ * \brief The algorithm allocate a page, Strategy, in a memory space; only if a memory space is empty.
+ * If both memory space are occupied, it calls swap() method
+ *
+ * @param string
+ * @return string
+ */
 string Pagination::load(string stg) {
     if (inMemory_1.empty()){
         inMemory_1 = stg;
@@ -29,21 +36,28 @@ string Pagination::load(string stg) {
         inMemory_2 = stg;
     } else { this->swap(stg); }
 
-    lastLoaded = stg;
+    inUse = stg;
     this->printState();
     return stg;
 }
 
+/**
+ * \brief Verifies that the page entered is different from the one that is in use. If the condition is met,
+ * checks the memory space is being used, to empty free memory space. This action causes a delay in the operation.
+ * Once the memory space is freed, it returns to the load() method.
+ *
+ * @param string
+ */
 void Pagination::swap(string stg) {
-    if(lastLoaded != stg){
-        if(lastLoaded == inMemory_1 && stg != inMemory_2) {
+    if(inUse != stg){
+        if(inUse == inMemory_1 && stg != inMemory_2) {
             inMemory_2.clear();
             delay(2);
-        } else if(lastLoaded == inMemory_2&& stg != inMemory_1) {
+        } else if(inUse == inMemory_2&& stg != inMemory_1) {
             inMemory_1.clear();
             delay(2);
         }
-        lastLoaded = stg;
+        inUse = stg;
         this->load(stg);
     }
 }

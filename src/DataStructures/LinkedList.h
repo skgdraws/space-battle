@@ -1,3 +1,7 @@
+//
+// Created by jose on 3/20/23.
+//
+
 #ifndef SPACE_BATTLE_LINKEDLIST_H
 #define SPACE_BATTLE_LINKEDLIST_H
 
@@ -11,11 +15,7 @@ template <class T> class LinkedList {
     int size;
 
 public:
-    LinkedList(){
-        head = nullptr;
-        tail = nullptr;
-        size = 0;
-    }
+    LinkedList();
 
     void insertNode(T data);
     void insertNode(Node<T>* node);

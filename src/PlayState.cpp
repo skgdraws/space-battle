@@ -80,7 +80,7 @@ void PlayState::pollEvents() {
 void PlayState::spawnEnemies() {
 
    //timer shenanigans
-   if (this->enemiesSpawnTimer < this->maxEnemiesSpawnTimer){
+   if (this->enemiesSpawnTimer < this->maxEnemiesSpawnTimer + 5){
 
        this->enemiesSpawnTimer += 1.f;
    }

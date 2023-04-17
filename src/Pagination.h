@@ -15,7 +15,7 @@ using namespace std;
 
 class Pagination {
 private:
-    string lastLoaded;
+    string inUse;
 
     //Cambiar por archivos XML
     string Stg_1 = "Strategy_1";
