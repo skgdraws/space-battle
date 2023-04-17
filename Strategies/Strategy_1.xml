@@ -1,12 +1,13 @@
-<Strategy>
-    <Power> A </Power>
-        <Name> MultiShot </Name>
-        <Type> Offensive </Type>
-        <Description> Allows to shoot 3 bullets at the same time </Description>
-        <Delay> 0 </Delay>
-    <Power> B </Power>
-        <Name> Shield </Name>
-        <Type> Defensive </Type>
-        <Description> Generates a shield around the player, hold one hit </Description>
-        <Delay> T </Delay>
+<Strategy Name = "Strategy 01">
+    <Power1 name = "Multi shot"
+            type = "Offensive"
+            description = "Allows to shoot 3 bullets at the same time"
+            delay = "2" >
+    </Power1>
+
+    <Power2 name = "Shield"
+            type = "Defensive"
+            description = "Generates a shield around the player, hold one hit"
+            delay = "20" >
+    </Power2>
 </Strategy>

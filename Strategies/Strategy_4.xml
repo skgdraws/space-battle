@@ -1,12 +1,13 @@
-<Strategy>
-    <Power> G </Power>
-        <Name> Bouncing Shot </Name>
-        <Type> Offensive </Type>
-        <Description> Deflects shot after hitting a enemy </Description>
-        <Delay> 0 </Delay>
-    <Power> H </Power>
-        <Name> Powerful Shot </Name>
-        <Type> Offensive </Type>
-        <Description> Generates a shot with twice the power </Description>
-        <Delay> T </Delay>
+<Strategy Name = "Strategy 03">
+    <Power1 name = "Bouncing shot"
+            type = "Offensive"
+            description = "Deflects shot after hitting a enemy"
+            delay = "2" >
+    </Power1>
+
+    <Power2 name = "Powerful shot"
+            type = "Offensive"
+            description = "Generates a shot with twice the power"
+            delay = "20" >
+    </Power2>
 </Strategy>

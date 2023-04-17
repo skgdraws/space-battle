@@ -26,7 +26,7 @@ private:
 public:
 
     // Constructor and Destructor
-    Player(float x = 0.f, float y = 0.f);
+    Player(float x = 10.f, float y = 250.f);
     virtual ~Player();
 
     // Accessors
