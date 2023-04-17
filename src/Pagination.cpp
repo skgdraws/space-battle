@@ -29,16 +29,15 @@ void Pagination::set() {
  * @param string
  * @return string
  */
-string Pagination::load(string stg) {
-    if (inMemory_1.empty()){
-        inMemory_1 = stg;
-    } else if (inMemory_2.empty()){
-        inMemory_2 = stg;
+void Pagination::load(string stg) {
+    if (inMemory_1 == nullptr){
+        *inMemory_1 = stg;
+    } else if (inMemory_2 == nullptr){
+        *inMemory_2 = stg;
     } else { this->swap(stg); }
 
-    inUse = stg;
-    this->printState();
-    return stg;
+    *inUse = stg;
+    //this->printState();
 }
 
 /**
@@ -49,17 +48,21 @@ string Pagination::load(string stg) {
  * @param string
  */
 void Pagination::swap(string stg) {
-    if(inUse != stg){
-        if(inUse == inMemory_1 && stg != inMemory_2) {
-            inMemory_2.clear();
+    if(*inUse != stg){
+        if(*inUse == *inMemory_1 && stg != *inMemory_2) {
+            inMemory_2 = nullptr;
             delay(2);
-        } else if(inUse == inMemory_2&& stg != inMemory_1) {
-            inMemory_1.clear();
+        } else if(inUse == inMemory_2&& stg != *inMemory_1) {
+            inMemory_1 = nullptr;
             delay(2);
         }
-        inUse = stg;
+        *inUse = stg;
         this->load(stg);
     }
+}
+
+string Pagination::getPage(){
+    return *inUse;
 }
 
 void Pagination::delay(int secs){
