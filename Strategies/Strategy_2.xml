@@ -1,12 +1,13 @@
-<Strategy>
-    <Power> C </Power>
-        <Name> Area Shot </Name>
-        <Type> Offensive </Type>
-        <Description> A shot that on impact can affect surrounding enemies </Description>
-        <Delay> T </Delay>
-    <Power> D </Power>
-        <Name> Enemy Retarder </Name>
-        <Type> Special </Type>
-        <Description> Causes enemies to move slower </Description>
-        <Delay> 0 </Delay>
+<Strategy Name = "Strategy 02">
+    <Power1 name = "Area shot"
+            type = "Offensive"
+            description = "A shot that on impact can affect surrounding enemies"
+            delay = "5" >
+    </Power1>
+
+    <Power2 name = "Freeze enemies"
+            type = "Special"
+            description = "Stop enemies for a moment"
+            delay = "20" >
+    </Power2>
 </Strategy>

@@ -1,12 +1,13 @@
-<Strategy>
-    <Power> E </Power>
-        <Name> Piercing Shot </Name>
-        <Type> Offensive </Type>
-        <Description> The shot pierces the enemies in front of it </Description>
-        <Delay> T </Delay>
-    <Power> F </Power>
-        <Name> Repelling Wave </Name>
-        <Type> Special </Type>
-        <Description> Push enemies back </Description>
-        <Delay> T </Delay>
+<Strategy Name = "Strategy 03">
+    <Power1 name = "Piercing shot"
+            type = "Offensive"
+            description = "The shot pierces the enemies in front of it"
+            delay = "5" >
+    </Power1>
+
+    <Power2 name = "Repelling wave"
+            type = "Special"
+            description = "Push enemies back"
+            delay = "20" >
+    </Power2>
 </Strategy>
