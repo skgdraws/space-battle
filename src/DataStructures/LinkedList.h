@@ -1,3 +1,12 @@
+/*
+╔╗──────╔╗──────╔╦╗──────╔╗
+║║──────║║──────║║║─────╔╝╚╗
+║║──╔╦═╗║║╔╦══╦═╝║║──╔╦═╩╗╔╝
+║║─╔╬╣╔╗╣╚╝╣║═╣╔╗║║─╔╬╣══╣║
+║╚═╝║║║║║╔╗╣║═╣╚╝║╚═╝║╠══║╚╗
+╚═══╩╩╝╚╩╝╚╩══╩══╩═══╩╩══╩═╝
+ */
+
 #ifndef SPACE_BATTLE_LINKEDLIST_H
 #define SPACE_BATTLE_LINKEDLIST_H
 
@@ -15,7 +24,7 @@ public:
 
     void insertNode(T data);
     void reinsertNode(T data, Node<T>* memoryDir);
-    void insertNodeHelp(Node<T>* node);
+    void insertNode(Node<T>* node);
     Node<T>* deleteNode(int i);
     int getSize();
     Node<T>* inPosition(int i);

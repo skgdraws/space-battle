@@ -1,0 +1,5 @@
+/home/jose/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug -B /home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug
+-- Found SFML 2.5.1 in /usr/lib/x86_64-linux-gnu/cmake/SFML
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug

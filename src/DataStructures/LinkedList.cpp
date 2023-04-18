@@ -25,21 +25,21 @@ template <class T>
  * @return null
  */
 void LinkedList<T>::insertNode(T data) {
-    Node<T>* node = new Node<T>(data);
-    insertNodeHelp(node);
+    auto* node = new Node<T>(data);
+    insertNode(node);
 }
 
 template <class T>
 /**
- * @brief Create a Node for to be inserted in the Linked List.
+ * @brief Take a Node for to be inserted in the Linked List.
  *
  * @tparam T
  * @param data
  * @return null
  */
 void LinkedList<T>::reinsertNode(T data, Node<T>* memoryDir) {
-    *memoryDir = new Node<T>(data);
-    insertNodeHelp(memoryDir);
+    *memoryDir = *new Node<T>(data);
+    insertNode(memoryDir);
 }
 
 /**
@@ -50,7 +50,7 @@ void LinkedList<T>::reinsertNode(T data, Node<T>* memoryDir) {
  * @return null
  */
 template<class T>
-void LinkedList<T>::insertNodeHelp(Node<T>* node) {
+void LinkedList<T>::insertNode(Node<T>* node) {
 
     if(head != nullptr){
         tail->next = node;
@@ -87,6 +87,7 @@ Node<T> *LinkedList<T>::deleteNode(int i) {
             tmp = tmp->next;
         }
     }
+    return nullptr;
 }
 
 /**
@@ -116,6 +117,7 @@ Node<T>* LinkedList<T>::inPosition(int i) {
         }
         return tmp;
     }
+    return nullptr;
 }
 //Is used to confirm the state of the Linked List
 template<class T>
