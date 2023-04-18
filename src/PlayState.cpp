@@ -144,7 +144,7 @@ void PlayState::updateEnemies() {
             this->maxEnemies--;
 
             this->curWave.deleteNode(i);
-            std::cout << "Current ammount of enemies: " << this->curWave.getSize() << std::endl;
+            std::cout << "Current ammount of enemies: " << this->maxEnemies; << std::endl;
         }
     }
 }
