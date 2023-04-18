@@ -8,7 +8,7 @@
 #include <SFML/Network.hpp>
 #include <iostream>
 
-enum SwagBallTypes{
+enum enemyTypes{
 
     DEFAULT = 0,
     DAMAGING,
@@ -28,6 +28,8 @@ private:
 
     // Health
     int health;
+    int difficulty;
+    int movementSpeed;
 
     // Private Functions
     void initShape();
@@ -42,6 +44,7 @@ public:
     const int& getType() const;
 
     // Functions
+    void setDifficulty(int diff);
     void update();
     void render(sf::RenderTarget * target);
 };

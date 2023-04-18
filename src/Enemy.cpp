@@ -4,7 +4,7 @@
 void Enemy::initShape() {
 
     this->shape.setRadius(static_cast<float>(rand()%10+10));
-    this->type = static_cast<int>(rand()%SwagBallTypes::NROFTYPES);
+    this->type = static_cast<int>(rand() % enemyTypes::NROFTYPES);
     sf::Color color;
 
     switch(this->type){
@@ -56,10 +56,35 @@ const int & Enemy::getType() const {
 }
 
 // Functions
+void Enemy::setDifficulty(int diff) {
+
+    this->difficulty = diff;
+
+    switch (this->type) {
+
+        case DEFAULT:
+            this->health = 2 * this->difficulty;
+            this->movementSpeed = 3.f * this->difficulty;
+            break;
+
+        case DAMAGING:
+            this->health = 3 * this->difficulty;
+            this->movementSpeed = 2.f * this->difficulty;
+            break;
+
+        case HEALING:
+            this->health = 1 * this->difficulty;
+            this->movementSpeed = 3.5f * this->difficulty;
+            break;
+    }
+
+
+}
+
 void Enemy::update(){
 
     // std::cout << "we're moving" << std::endl;
-    this->shape.move(-5.f , 0.f);
+    this->shape.move(-this->movementSpeed, 0.f);
     // this->shape.move(sf::Vector2f(-10.f, 0.f));
 }
 
