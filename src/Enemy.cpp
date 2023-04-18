@@ -108,7 +108,7 @@ void Enemy::setDifficulty(int diff) {
 void Enemy::update(){
 
     // std::cout << "we're moving" << std::endl;
-    this->shape.move(-5.f , 0.f);
+    this->shape.move(-this->movementSpeed, 0.f);
     // this->shape.move(sf::Vector2f(-10.f, 0.f));
 }
 
