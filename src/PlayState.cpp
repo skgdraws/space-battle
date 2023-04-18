@@ -37,9 +37,11 @@ void PlayState::initWindow() {
  * \brief Class that handles all of the game's logic
  */
 PlayState::PlayState(int diff){
+    if(diff <= 3 && diff > 0){
 
-    this->initVariables(diff);
-    this->initWindow();
+        this->initVariables(diff);
+        this->initWindow();
+    }
 }
 
 PlayState::~PlayState(){
