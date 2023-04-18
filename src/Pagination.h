@@ -26,7 +26,7 @@ private:
     string *inMemory_1;
     string *inMemory_2;
 
-    void swap(string std);
+    void swap(string stg);
     void delay(int secs);
 
 public:

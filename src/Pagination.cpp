@@ -52,7 +52,7 @@ void Pagination::swap(string stg) {
         if(*inUse == *inMemory_1 && stg != *inMemory_2) {
             inMemory_2 = nullptr;
             delay(2);
-        } else if(inUse == inMemory_2&& stg != *inMemory_1) {
+        } else if(inUse == inMemory_2 && stg != *inMemory_1) {
             inMemory_1 = nullptr;
             delay(2);
         }
