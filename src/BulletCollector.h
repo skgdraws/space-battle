@@ -6,6 +6,7 @@
 #define SPACE_BATTLE_BULLETCOLLECTOR_H
 
 #include "DataStructures/LinkedList.h"
+#include "DataStructures/LinkedList.cpp"
 #include <vector>
 #include <iostream>
 #include "Bullet.h"
@@ -18,10 +19,10 @@ class BulletCollector {
 
     private:
         std::vector<Node<Bullet>*> memoryVector;
-        LinkedList<Bullet*> list;
+
 
     public:
-
+    LinkedList<Bullet*> list;
 
     void New(Bullet *data);
 
@@ -29,7 +30,7 @@ class BulletCollector {
 
     void Delete(int data);
 
-    Bullet *print();
+    void print();
 };
 
 
