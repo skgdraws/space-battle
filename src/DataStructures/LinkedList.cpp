@@ -26,7 +26,20 @@ template <class T>
  */
 void LinkedList<T>::insertNode(T data) {
     Node<T>* node = new Node<T>(data);
-    insertNode(node);
+    insertNodeHelp(node);
+}
+
+template <class T>
+/**
+ * @brief Create a Node for to be inserted in the Linked List.
+ *
+ * @tparam T
+ * @param data
+ * @return null
+ */
+void LinkedList<T>::reinsertNode(T data, Node<T>* memoryDir) {
+    *memoryDir = new Node<T>(data);
+    insertNodeHelp(memoryDir);
 }
 
 /**
@@ -37,7 +50,8 @@ void LinkedList<T>::insertNode(T data) {
  * @return null
  */
 template<class T>
-void LinkedList<T>::insertNode(Node<T>* node) {
+void LinkedList<T>::insertNodeHelp(Node<T>* node) {
+
     if(head != nullptr){
         tail->next = node;
         tail = node;

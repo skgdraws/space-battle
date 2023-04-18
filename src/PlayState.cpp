@@ -15,7 +15,7 @@ void PlayState::initVariables(int diff) {
     this->endGame = false;
     this->difficulty = diff;
     this->wave = 0;
-    this->maxEnemiesSpawnTimer = this->waves[0] * 5 * diff;
+    this->maxEnemiesSpawnTimer = this->waves[0] * 15 / diff;
     this->enemiesSpawnTimer = this->maxEnemiesSpawnTimer;
     this->maxEnemies = 10;
     this->numEnemies = -1;
@@ -163,6 +163,7 @@ void PlayState::update() {
 
     for (int i = 0 ; i < this->curWave.getSize() ; i++){
 
+        this->curWave.inPosition(i)->data.setDifficulty(this->difficulty);
         this->curWave.inPosition(i)->data.update();
     }
 
