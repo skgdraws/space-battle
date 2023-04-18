@@ -53,10 +53,10 @@ RM = /home/jose/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug
+CMAKE_SOURCE_DIR = /home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Space_Battle.dir/depend.make
@@ -69,179 +69,179 @@ include CMakeFiles/Space_Battle.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Space_Battle.dir/flags.make
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.o: /home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.o -c /home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp > CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.i
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp > CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.i
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.s
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.s
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.o: /home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.o -c /home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp > CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.i
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp > CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.i
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.s
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.s
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.o: /home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.o -c /home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp > CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.i
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp > CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.i
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.s
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.s
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.o: /home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.o -c /home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp > CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.i
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp > CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.i
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.s
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.s
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o: /home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o -c /home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp > CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.i
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp > CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.i
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.s
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.s
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.o: /home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.o -c /home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp > CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.i
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp > CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.i
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.s
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.s
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.o: /home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.o -c /home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp > CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.i
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp > CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.i
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.s
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.s
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.o: /home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.o -c /home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp > CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.i
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp > CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.i
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.s
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.s
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.o: /home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.o -c /home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp > CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.i
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp > CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.i
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.s
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.s
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.o: /home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.o -c /home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.o: CMakeFiles/Space_Battle.dir/flags.make
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.o: /home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.o: CMakeFiles/Space_Battle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.o -MF CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.o.d -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.o -c /home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp > CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.i
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp > CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.i
 
-CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.s
+CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp -o CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.s
 
 # Object files for target Space_Battle
 Space_Battle_OBJECTS = \
-"CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.o" \
-"CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.o" \
-"CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.o" \
-"CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.o" \
-"CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o" \
-"CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.o" \
-"CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.o" \
-"CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.o" \
-"CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.o" \
-"CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.o"
+"CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.o" \
+"CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.o" \
+"CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.o" \
+"CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.o" \
+"CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o" \
+"CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.o" \
+"CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.o" \
+"CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.o" \
+"CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.o" \
+"CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.o"
 
 # External object files for target Space_Battle
 Space_Battle_EXTERNAL_OBJECTS =
 
-Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.o
-Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.o
-Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.o
-Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.o
-Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o
-Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.o
-Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.o
-Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.o
-Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.o
-Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.o
+Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.o
+Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.o
+Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.o
+Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.o
+Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o
+Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.o
+Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.o
+Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.o
+Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.o
+Space_Battle: CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.o
 Space_Battle: CMakeFiles/Space_Battle.dir/build.make
 Space_Battle: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 Space_Battle: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
 Space_Battle: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 Space_Battle: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 Space_Battle: CMakeFiles/Space_Battle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Space_Battle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Space_Battle"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Space_Battle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -253,6 +253,6 @@ CMakeFiles/Space_Battle.dir/clean:
 .PHONY : CMakeFiles/Space_Battle.dir/clean
 
 CMakeFiles/Space_Battle.dir/depend:
-	cd /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles/Space_Battle.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug /home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug /home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug /home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug /home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug/CMakeFiles/Space_Battle.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Space_Battle.dir/depend
 

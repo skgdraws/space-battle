@@ -1,6 +1,12 @@
 #include "Enemy.h"
 
 // Private functions
+/**
+ * \brief set enemies shape, according to the type of enemy spawned
+ *
+ * @param
+ * @return
+ */
 void Enemy::initShape() {
 
     this->shape.setRadius(static_cast<float>(rand()%10+10));
@@ -35,6 +41,12 @@ void Enemy::initShape() {
 }
 
 // Constructor and Destructor
+/**
+ * \brief Class that handles all of the enemy's logic
+ *
+ * @param
+ * @return
+ */
 Enemy::Enemy(){
 
     initShape();
@@ -45,17 +57,35 @@ Enemy::~Enemy() {
 
 }
 
+/**
+ * \brief Returns the enemy's shape
+ *
+ * @param
+ * @return CircleShape
+ */
 sf::CircleShape Enemy::getShape() const {
 
     return this->shape;
 }
 
+/**
+ * \brief Returns the enemy's type
+ *
+ * @param
+ * @return
+ */
 const int & Enemy::getType() const {
 
     return this->type;
 }
 
 // Functions
+/**
+ * \brief Allows to update enemy values at runtime
+ *
+ * @param
+ * @return
+ */
 void Enemy::update(){
 
     // std::cout << "we're moving" << std::endl;
@@ -63,6 +93,12 @@ void Enemy::update(){
     // this->shape.move(sf::Vector2f(-10.f, 0.f));
 }
 
+/**
+ * \brief Handles the rendering of player display sprite
+ *
+ * @param
+ * @return
+ */
 void Enemy::render(sf::RenderTarget *target) {
 
     target->draw(this->shape);

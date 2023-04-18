@@ -57,10 +57,10 @@ RM = /home/jose/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug
+CMAKE_SOURCE_DIR = /home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug/CMakeFiles /home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jose/Desktop/TEC/CE2103/space-battle/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,245 +129,245 @@ Space_Battle/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/build
 .PHONY : Space_Battle/fast
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.o: home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.o: home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.o
 
 # target to build an object file
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.o
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.i: home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.i: home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.i
 
 # target to preprocess a source file
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.i
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.s: home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.s: home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.s
 
 # target to generate assembly for a file
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.cpp.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.cpp.s
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.o: home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.o: home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.o
 
 # target to build an object file
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.o
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.i: home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.i: home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.i
 
 # target to preprocess a source file
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.i
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.s: home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.s: home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.s
 
 # target to generate assembly for a file
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.cpp.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.cpp.s
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.o: home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.o: home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.o
 
 # target to build an object file
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.o
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.i: home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.i: home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.i
 
 # target to preprocess a source file
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.i
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.s: home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.s: home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.s
 
 # target to generate assembly for a file
-home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.cpp.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.cpp.s
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.o: home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.o: home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.o
 
 # target to build an object file
-home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.i: home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.i: home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.i
 
 # target to preprocess a source file
-home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.i
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.s: home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.s: home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.s
 
 # target to generate assembly for a file
-home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.cpp.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.s
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.o: home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.o: home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.o
 
 # target to build an object file
-home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.o
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.i: home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.i: home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.i
 
 # target to preprocess a source file
-home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.i
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.s: home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.s: home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.s
 
 # target to generate assembly for a file
-home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.cpp.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.s
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.o: home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.o: home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.o
 
 # target to build an object file
-home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.o
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.i: home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.i: home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.i
 
 # target to preprocess a source file
-home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.i
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.s: home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.s: home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.s
 
 # target to generate assembly for a file
-home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.cpp.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.s
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.o: home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.o: home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.o
 
 # target to build an object file
-home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.o
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.i: home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.i: home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.i
 
 # target to preprocess a source file
-home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.i
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.s: home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.s: home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.s
 
 # target to generate assembly for a file
-home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.cpp.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.s
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.o: home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.o: home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.o
 
 # target to build an object file
-home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.o
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.i: home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.i: home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.i
 
 # target to preprocess a source file
-home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.i
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.s: home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.s: home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.s
 
 # target to generate assembly for a file
-home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.cpp.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.s
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/Player.o: home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Player.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/Player.o: home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Player.o
 
 # target to build an object file
-home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.o
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/Player.i: home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Player.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/Player.i: home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Player.i
 
 # target to preprocess a source file
-home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.i
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/Player.s: home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Player.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/Player.s: home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Player.s
 
 # target to generate assembly for a file
-home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/Player.cpp.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.s
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/main.o: home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/main.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/main.o: home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/main.o
 
 # target to build an object file
-home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.o
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.o
+home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.o
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.o
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/main.i: home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/main.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/main.i: home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/main.i
 
 # target to preprocess a source file
-home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.i
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.i
+home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.i
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.i
 
-home/jose/Desktop/TEC/CE2103/space-battle/src/main.s: home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/main.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/main.s: home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/main.s
 
 # target to generate assembly for a file
-home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.s
-.PHONY : home/jose/Desktop/TEC/CE2103/space-battle/src/main.cpp.s
+home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space_Battle.dir/build.make CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.s
+.PHONY : home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.s
 
 # Help Target
 help:
@@ -378,36 +378,36 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Space_Battle"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.o"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.i"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Bullet.s"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.o"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.i"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/BulletCollector.s"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.o"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.i"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/DTO/Wave.s"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.o"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.i"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/LinkedList.s"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.o"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.i"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/DataStructures/Node.s"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.o"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.i"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/Enemy.s"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.o"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.i"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/Pagination.s"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.o"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.i"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/PlayState.s"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/Player.o"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/Player.i"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/Player.s"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/main.o"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/main.i"
-	@echo "... home/jose/Desktop/TEC/CE2103/space-battle/src/main.s"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.o"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.i"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Bullet.s"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.o"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.i"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/BulletCollector.s"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.o"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.i"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/DTO/Wave.s"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.o"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.i"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.s"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.o"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.i"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.s"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.o"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.i"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.s"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.o"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.i"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.s"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.o"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.i"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.s"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/Player.o"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/Player.i"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/Player.s"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/main.o"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/main.i"
+	@echo "... home/jose/Documents/Computadores/CE2103/space-battle/src/main.s"
 .PHONY : help
 
 

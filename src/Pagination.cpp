@@ -1,7 +1,3 @@
-//
-// Created by jose on 4/16/23.
-//
-
 #include "Pagination.h"
 
 void Pagination::set() {

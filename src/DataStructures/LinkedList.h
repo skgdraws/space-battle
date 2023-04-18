@@ -1,7 +1,3 @@
-//
-// Created by jose on 3/20/23.
-//
-
 #ifndef SPACE_BATTLE_LINKEDLIST_H
 #define SPACE_BATTLE_LINKEDLIST_H
 

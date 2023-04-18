@@ -1,7 +1,3 @@
-//
-// Created by jose on 4/16/23.
-//
-
 #ifndef SPACE_BATTLE_PAGINATION_H
 #define SPACE_BATTLE_PAGINATION_H
 
