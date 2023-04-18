@@ -10,7 +10,7 @@
  */
 void BulletCollector::New(Bullet *data) {
 
-    auto* ptr = this->memoryVector[0];
+    auto* ptr = this->memoryList.inPosition(0);
     std::cout << "MEMORY HAS BEEN ALLOCATED" << std::endl;
 
     this->list.reinsertNode(data, (Node<Bullet*>*) ptr);
@@ -41,7 +41,7 @@ void BulletCollector::New(Bullet *data, int size) {
 void BulletCollector::Delete(int data){
 
     auto* dir = list.deleteNode(data);
-    this->memoryVector.insert(memoryVector.begin(), (Node<Bullet>*) (dir));
+    this->memoryList.insertNode( (Node<Bullet>*) (dir));
     std::cout <<"the node in " << dir << " has been trashed" << std::endl;
 }
 
@@ -50,9 +50,9 @@ void BulletCollector::print(){
     list.printList();
 
     std::cout << '[';
-    for(int i = 0; i < memoryVector.size(); i++){
+    for(int i = 0; i < memoryList.getSize(); i++){
 
-        std::cout << memoryVector[i] << ', ';
+        std::cout << memoryList.inPosition(i) << ', ';
     }
 
     std::cout << ']' << std::endl;

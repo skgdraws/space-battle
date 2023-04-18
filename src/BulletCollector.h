@@ -23,7 +23,7 @@
 class BulletCollector {
 
     private:
-        std::vector<Node<Bullet>*> memoryVector;
+        LinkedList<Node<Bullet>*> memoryList;
 
 
     public:
