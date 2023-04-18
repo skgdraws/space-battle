@@ -12,12 +12,12 @@ SevSeg sevseg;
 const int analogInPin = A0;
 
 // Buttons:
-// 1 - Up, 2 - Down, 3 - Left, 4 - Right, 5 - Select
-byte buttonPins[] = {2, 3, 4, 5, 6};
+// 1 - Up, 2 - Down, 3 - Left, 4 - Select
+byte buttonPins[] = {2, 3, 4, 5};
 
 // 7 Segment Display:
 // A - B - C - D - E - F - G - DP
-byte displayPins[] = {8, 9, 12, 11, 10, 7, 6, 13};
+byte displayPins[] = {6, 7, 8, 9, 10, 11, 12};
 byte digitPins[] = {};
 
 // Values that are being read
@@ -40,7 +40,7 @@ void setup() {
   pinMode(analogInPin, INPUT_PULLUP);
 
   bool resistorOnSegments = true;
-  byte hardwareConfig = COMMON_ANODE; 
+  byte hardwareConfig = COMMON_CATHODE; 
   byte numDigits = 1;
   sevseg.begin(hardwareConfig, numDigits, digitPins, displayPins, resistorOnSegments);
   sevseg.setBrightness(90);
@@ -70,8 +70,13 @@ void loop() {
 
   Serial.print("Analog Value = ");
   Serial.println(analogInValue);
+  Serial.print("\n");
+
+  sevseg.setNumber(curWave);
+  sevseg.refreshDisplay();
 
   // wait 2 milliseconds before the next loop for the analog-to-digital
   // converter to settle after the last reading:
-  delay(500);
+  delay(100);
+    
 }
