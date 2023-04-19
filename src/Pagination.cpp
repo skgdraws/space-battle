@@ -57,6 +57,11 @@ void Pagination::swap(string stg) {
     }
 }
 
+/**
+ * \brief Return the page that is in use
+ *
+ * @return string
+ */
 string Pagination::getPage(){
     return *inUse;
 }

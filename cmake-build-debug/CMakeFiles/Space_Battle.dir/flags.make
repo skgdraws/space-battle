@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug/third-party/include
+CXX_INCLUDES = 
 
 CXX_FLAGS = -g -fdiagnostics-color=always -std=gnu++14
 

@@ -33,7 +33,7 @@ class BulletCollector {
 
     void New(Bullet *data, int size);
 
-    void Delete(int data);
+    void Delete(int pos);
 
     void print();
 };

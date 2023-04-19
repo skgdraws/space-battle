@@ -5,7 +5,7 @@
  */
 void PlayState::initVariables(int diff) {
 
-    openSerialPort();
+//    openSerialPort();
 
     // Wave Setup
     this->waves[0] = 10;
@@ -87,7 +87,9 @@ void PlayState::pollEvents() {
         }
     }
 }
-
+/**
+ * \brief Is in charge of spawning enemies.
+ */
 void PlayState::spawnEnemies() {
 
     if (wave <= 4){
@@ -124,9 +126,13 @@ void PlayState::spawnEnemies() {
    }
 }
 
+/**
+ * \brief Takes care of the movement of enemies
+ */
 void PlayState::updateEnemies() {
 
     for (int i = 0 ; i < this->curWave.getSize() ; i++){
+        bool isDeleted = false;
 
         if (this->curWave.inPosition(i)->data.getShape().getGlobalBounds().top <= 0){
 
@@ -137,7 +143,7 @@ void PlayState::updateEnemies() {
             this->curWave.inPosition(i)->data.getShape().setPosition(this->curWave.inPosition(i)->data.getShape().getPosition().x, 600 - this->curWave.inPosition(i)->data.getShape().getGlobalBounds().height);
         }
 
-        if (this->curWave.inPosition(i)->data.getShape().getGlobalBounds().left <= 0){
+        if (this->curWave.inPosition(i)->data.getShape().getGlobalBounds().left <= 0 && !isDeleted){
 
             // std::cout << "Enemy " << i << " is wrapping" << std::endl;
             std::cout << "You got hurt" << endl;
@@ -151,28 +157,35 @@ void PlayState::updateEnemies() {
             this->curWave.deleteNode(i);
             std::cout << "Current ammount of enemies: " << this->maxEnemies << std::endl;
         }
+        for(int j =0; j < this->bullets.list.getSize(); j++){
+
+            if (this->curWave.inPosition(i)->data.getShape().getGlobalBounds().intersects(this->bullets.list.inPosition(j)->data->getShape().getGlobalBounds()) && !isDeleted){
+                this->numEnemies--;
+                this->maxEnemies--;
+
+                this->curWave.deleteNode(i);
+            }
+        }
     }
 }
 
 void PlayState::updateBullets() {
 
-    for (int i = 0 ; i < this->bullets.listgetSize() ; i++){
+    for (int i = 0 ; i < this->bullets.list.getSize() ; i++){
 
         if (this->bullets.list.inPosition(i)->data->getShape().getGlobalBounds().left >= this->window->getSize().x){
 
             // std::cout << "Enemy " << i << " is wrapping" << std::endl;
             std::cout << "Bullet has been recycled" << endl;
 
+            this->bullets.Delete(i);
 
-            this->curWave.deleteNode(i);
-            std::cout << "Current ammount of enemies: " << this->maxEnemies << std::endl;
         }
     }
 }
 
 /**
  * \brief Detects collisions between player and enemies
- *
  */
 void PlayState::playerCollisions() {
     for (int i = 0; i < this->curWave.getSize(); i++){
@@ -197,6 +210,7 @@ void PlayState::update() {
 
     this->pollEvents();
     this->spawnEnemies();
+    this->spawnBullets();
 
     for (int i = 0 ; i < this->curWave.getSize() ; i++){
 
@@ -206,10 +220,15 @@ void PlayState::update() {
 
     this->player.update(this->window, this->up, this->down);
 
-    this->sendToArduino(this->wave);
+//    this->sendToArduino(this->wave);
 
     this->updateEnemies();
     this->playerCollisions();
+
+    for (int i = 0; i < this->bullets.list.getSize(); i++){
+        this->bullets.list.inPosition(i)->data->update();
+    }
+
     this->updateBullets();
 
 }
@@ -231,78 +250,114 @@ void PlayState::render() {
         this->curWave.inPosition(i)->data.render(this->window);
     }
 
+    for (int i = 0 ; i < this->bullets.list.getSize() ; i++){
+
+        this->bullets.list.inPosition(i)->data->render(this->window);
+    }
+
     //Displays frame
     this->window->display();
 }
 
-void PlayState::openSerialPort(){
+///**
+// * \brief Establish the communication between the arduino and c++
+// */
+//void PlayState::openSerialPort(){
+//
+//    this->serialStream.Open("/dev/ttyACM0");
+//
+//    try {
+//        this->serialStream.SetBaudRate(LibSerial::BaudRate::BAUD_9600);
+//    }
+//    catch (const LibSerial::OpenFailed &) {
+//
+//        std::cerr << "The Port did not open correctly" << std::endl;
+//    }
+//
+//    this->serialStream.SetCharacterSize(LibSerial::CharacterSize::CHAR_SIZE_8);
+//    this->serialStream.SetFlowControl(LibSerial::FlowControl::FLOW_CONTROL_NONE);
+//    this->serialStream.SetParity(LibSerial::Parity::PARITY_NONE);
+//    this->serialStream.SetStopBits(LibSerial::StopBits::STOP_BITS_1);
+//
+//    while (this->serialStream.rdbuf()->in_avail() == 0){
+//        usleep(2000);
+//        std::cout << "Waiting for arduino connection" << std::endl;
+//    }
+//
+//    while(this->serialStream.IsDataAvailable()){
+//
+//        char data_byte;
+//
+//        this->serialStream.get(data_byte);
+//        if(data_byte == 'C'){
+//
+//            std::cout << "system running \n";
+//        }
+//    }
+//
+//    std::cout << "Connected Arduino succesfully" << std::endl;
+//}
+//
+///**
+// * \brief Allows to send data from c++ to the arduino
+// *
+// * @param data
+// */
+//void PlayState::sendToArduino(int data) {
+//
+//    this->serialStream << data + 1 << std::endl;
+//    this->serialStream.DrainWriteBuffer();
+//}
+//
+///**
+// * \brief receive parameters from arduino
+// */
+//void PlayState::recieveFromArduino() {
+//
+//    if(serialStream.rdbuf()->in_avail() != 0) {
+//
+//        usleep(100);
+//        int dato = 0;
+//
+//        while (this->serialStream.rdbuf()->in_avail() != 0){
+//
+//            char data_byte;
+//            serialStream.get(data_byte);
+//
+//            std::cout << "char pressed: " << data_byte << std::endl;
+//
+//            if (data_byte == 'u'){
+//
+//                this->up = data_byte;
+//            }
+//            else if (data_byte == 'd'){
+//
+//                this->down = data_byte;
+//            }
+//            if (int(data_byte) >= 0){
+//
+//                this->bulletSpeed = int(data_byte);
+//            }
+//        }
+//    }
+//}
 
-    this->serialStream.Open("/dev/ttyACM0");
+void PlayState::spawnBullets() {
+    //timer shenanigans
+    if (this->curBulletsSpeed < this->bulletSpeed){
 
-    try {
-        this->serialStream.SetBaudRate(LibSerial::BaudRate::BAUD_9600);
+        this->curBulletsSpeed += 1.f;
     }
-    catch (const LibSerial::OpenFailed &) {
+    else{
+        if (this->bullets.list.getSize() > 0 && this->curBullets != 0){
 
-        std::cerr << "The Port did not open correctly" << std::endl;
-    }
-
-    this->serialStream.SetCharacterSize(LibSerial::CharacterSize::CHAR_SIZE_8);
-    this->serialStream.SetFlowControl(LibSerial::FlowControl::FLOW_CONTROL_NONE);
-    this->serialStream.SetParity(LibSerial::Parity::PARITY_NONE);
-    this->serialStream.SetStopBits(LibSerial::StopBits::STOP_BITS_1);
-
-    while (this->serialStream.rdbuf()->in_avail() == 0){
-        usleep(2000);
-        std::cout << "Waiting for arduino connection" << std::endl;
-    }
-
-    while(this->serialStream.IsDataAvailable()){
-
-        char data_byte;
-
-        this->serialStream.get(data_byte);
-        if(data_byte == 'C'){
-
-            std::cout << "system running \n";
+            this->bullets.New(new Bullet, 1);
+            this->curBulletsSpeed = 0.f;
+            this->curBullets--;
         }
-    }
-
-    std::cout << "Connected Arduino succesfully" << std::endl;
-}
-
-void PlayState::sendToArduino(int data) {
-
-    this->serialStream << data + 1 << std::endl;
-    this->serialStream.DrainWriteBuffer();
-}
-
-void PlayState::recieveFromArduino() {
-
-    if(serialStream.rdbuf()->in_avail() != 0) {
-
-        usleep(100);
-        int dato = 0;
-
-        while (this->serialStream.rdbuf()->in_avail() != 0){
-
-            char data_byte;
-            serialStream.get(data_byte);
-
-            std::cout << "char pressed: " << data_byte << std::endl;
-
-            if (data_byte == 'u'){
-
-                this->up = data_byte;
-            }
-            else if (data_byte == 'd'){
-
-                this->down = data_byte;
-            }
-            if (int(data_byte) >= 0){
-
-                this->bulletSpeed = int(data_byte);
-            }
+        else {
+            this->bullets.New(new Bullet);
+            this->curBulletsSpeed = 0.f;
         }
     }
 }

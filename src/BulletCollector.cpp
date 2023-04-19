@@ -38,9 +38,9 @@ void BulletCollector::New(Bullet *data, int size) {
  * @param data
  * @return
  */
-void BulletCollector::Delete(int data){
+void BulletCollector::Delete(int pos){
 
-    auto* dir = list.deleteNode(data);
+    auto* dir = list.deleteNode(pos);
     this->memoryList.insertNode( (Node<Bullet>*) (dir));
     std::cout <<"the node in " << dir << " has been trashed" << std::endl;
 }

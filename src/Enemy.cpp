@@ -1,6 +1,12 @@
 #include "Enemy.h"
 
 // Private functions
+/**
+ * \brief Initialize the enemy shape
+ *
+ * @param
+ * @return
+ */
 void Enemy::initShape() {
 
     this->shape.setRadius(static_cast<float>(rand()%10+10));
@@ -74,6 +80,12 @@ const int & Enemy::getType() const {
 }
 
 // Functions
+/**
+ * \brief Set variables from the difficulty
+ *
+ * @param diff
+ * @return
+ */
 void Enemy::setDifficulty(int diff) {
 
     this->difficulty = diff;

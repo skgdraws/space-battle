@@ -15,8 +15,6 @@
 #include <ctime>
 #include <iostream>
 #include <vector>
-#include "DataStructures/LinkedList.h"
-#include "DataStructures/LinkedList.cpp"
 #include "BulletCollector.h"
 #include "Player.h"
 #include "Bullet.h"
@@ -24,14 +22,14 @@
 #include <cstdlib>
 #include <string>
 #include <unistd.h>
-#include "libserial/SerialStream.h"
+//#include "libserial/SerialStream.h"
 
 class PlayState {
 
 private:
 
     // Serial Port
-    LibSerial::SerialStream serialStream;
+//    LibSerial::SerialStream serialStream;
 
     // Screen Variables
     sf::VideoMode videoMode;
@@ -49,6 +47,7 @@ private:
     int maxBullets;
     int curBullets;
     int bulletSpeed;
+    int curBulletsSpeed;
     int points;
     // Add Garbage collector here
 
@@ -84,6 +83,7 @@ public:
 
     // Entity Updating
     void spawnEnemies();
+    void spawnBullets();
     void playerCollisions();
     void updateEnemies();
     void updateBullets();
@@ -92,9 +92,11 @@ public:
     void update();
     void render();
 
-    void openSerialPort();
-    void sendToArduino(int data);
-    void recieveFromArduino();
+//    void openSerialPort();
+//    void sendToArduino(int data);
+//    void recieveFromArduino();
+
+
 };
 
 
