@@ -18,6 +18,7 @@
 #include "DataStructures/LinkedList.h"
 #include "DataStructures/LinkedList.cpp"
 #include "Player.h"
+#include "Bullet.h"
 #include "Enemy.h"
 #include <cstdlib>
 #include <string>
@@ -43,7 +44,9 @@ private:
     Player player;
     char up;
     char down;
+    LinkedList<Bullet> bullets;
     int maxBullets;
+    int curBullets;
     int bulletSpeed;
     int points;
     // Add Garbage collector here

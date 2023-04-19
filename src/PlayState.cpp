@@ -19,6 +19,8 @@ void PlayState::initVariables(int diff) {
     this->wave = 0;
     this->maxEnemiesSpawnTimer = this->waves[0] * 15 / diff;
     this->enemiesSpawnTimer = this->maxEnemiesSpawnTimer;
+    this->maxBullets = 100 / this->difficulty;
+    this->curBullets = this->maxBullets;
     this->maxEnemies = 10;
     this->numEnemies = -1;
     this->points = 0;
