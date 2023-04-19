@@ -225,8 +225,8 @@ void PlayState::update() {
     this->updateEnemies();
     this->playerCollisions();
 
-    for (int i = 0; i < this->bullets.list.getSize(); i++){
-        this->bullets.list.inPosition(i)->data->update();
+    for (int j = 0; j < this->bullets.list.getSize(); j++){
+        this->bullets.list.inPosition(j)->data->update();
     }
 
     this->updateBullets();
@@ -250,9 +250,9 @@ void PlayState::render() {
         this->curWave.inPosition(i)->data.render(this->window);
     }
 
-    for (int i = 0 ; i < this->bullets.list.getSize() ; i++){
+    for (int j = 0 ; j < this->bullets.list.getSize() ; j++){
 
-        this->bullets.list.inPosition(i)->data->render(this->window);
+        this->bullets.list.inPosition(j)->data->render(this->window);
     }
 
     //Displays frame
@@ -351,13 +351,13 @@ void PlayState::spawnBullets() {
     else{
         if (this->bullets.list.getSize() > 0 && this->curBullets != 0){
 
-            this->bullets.New(new Bullet, 1);
+            this->bullets.New(new Bullet(this->player.getShape().getPosition()), 1);
             this->curBulletsSpeed = 0.f;
             this->curBullets--;
         }
-        else {
-            this->bullets.New(new Bullet);
-            this->curBulletsSpeed = 0.f;
-        }
+//        else {
+//            this->bullets.New(new Bullet(this->player.getShape().getPosition()));
+//            this->curBulletsSpeed = 0.f;
+//        }
     }
 }

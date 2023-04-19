@@ -3,8 +3,8 @@
 /**
  * \brief Is the constructor of the class
  */
-Bullet::Bullet() {
-    initShape();
+Bullet::Bullet(sf::Vector2f pos) {
+    initShape(pos);
     initVariables();
 }
 
@@ -25,9 +25,10 @@ const sf::RectangleShape Bullet::getShape() const{
 /**
  * \brief Initialize the shape of the bullets
  */
-void Bullet::initShape() {
+void Bullet::initShape(sf::Vector2f pos) {
     this->rect.setSize(sf::Vector2f(20.f, 10.f));
     this->rect.setFillColor(sf::Color::White);
+    this->rect.setPosition(pos);
 }
 
 /**

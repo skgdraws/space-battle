@@ -24,13 +24,13 @@ private:
     sf::RectangleShape rect;
     int damage;
 
-    void initShape();
+    void initShape(sf::Vector2f pos);
     void initVariables();
 
 public:
 
     // funni constructor
-    Bullet();
+    Bullet(sf::Vector2f pos);
     virtual ~Bullet();
 
     void update ();
