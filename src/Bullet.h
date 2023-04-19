@@ -33,6 +33,9 @@ public:
     Bullet();
     virtual ~Bullet();
 
+    void update ();
+    void render (sf::RenderTarget *target);
+
     // functions
 };
 
