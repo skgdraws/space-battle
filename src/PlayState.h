@@ -19,10 +19,17 @@
 #include "DataStructures/LinkedList.cpp"
 #include "Player.h"
 #include "Enemy.h"
+#include <cstdlib>
+#include <string>
+#include <unistd.h>
+#include "libserial/SerialStream.h"
 
 class PlayState {
 
 private:
+
+    // Serial Port
+    LibSerial::SerialStream serialStream;
 
     // Screen Variables
     sf::VideoMode videoMode;
@@ -34,6 +41,10 @@ private:
 
     // Player Variables
     Player player;
+    char up;
+    char down;
+    int maxBullets;
+    int bulletSpeed;
     int points;
     // Add Garbage collector here
 
@@ -76,6 +87,10 @@ public:
     // Game running
     void update();
     void render();
+
+    void openSerialPort();
+    void sendToArduino(int data);
+    void recieveFromArduino();
 };
 
 

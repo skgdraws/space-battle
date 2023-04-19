@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Space_Battle::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Space_Battle-Debug-f25c6849782d04429c29.json",
+					"jsonFile" : "target-Space_Battle-Debug-b8eaea26e47a2960906b.json",
 					"name" : "Space_Battle",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug",
-		"source" : "/home/jose/Documents/Computadores/CE2103/space-battle/cmake-build-debug"
+		"build" : "/home/skgart/space-battle/cmake-build-debug",
+		"source" : "/home/skgart/space-battle/cmake-build-debug"
 	},
 	"version" : 
 	{

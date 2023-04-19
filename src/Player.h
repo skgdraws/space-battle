@@ -50,13 +50,13 @@ public:
     void healHP(const int health);
 
     // Inputs
-    void updateInput();
+    void updateInput(char up, char down);
 
     // Checks collisions
     void windowBoundsCollision(const sf::RenderTarget * target);
 
     // Updating and Rendering process
-    void update(const sf::RenderTarget * target);
+    void update(const sf::RenderTarget * target, char up, char down);
     void render(sf::RenderTarget * target);
 };
 
