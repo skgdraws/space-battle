@@ -37,6 +37,10 @@ public:
     void render (sf::RenderTarget *target);
 
     // functions
+    const sf::RectangleShape getShape() const;
+    const int getDamage() const;
+
+    void setDamage();
 };
 
 
