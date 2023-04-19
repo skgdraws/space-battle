@@ -11,7 +11,7 @@ Bullet::~Bullet() {
 
 const sf::RectangleShape Bullet::getShape() const{
 
-    return this->rect
+    return this->rect;
 }
 
 void Bullet::initShape() {
