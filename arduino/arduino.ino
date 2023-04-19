@@ -1,4 +1,4 @@
-1
+
 #include "SevSeg.h"
 SevSeg sevseg; 
 
@@ -40,7 +40,7 @@ void setup() {
   pinMode(analogInPin, INPUT_PULLUP);
 
   bool resistorOnSegments = true;
-  byte hardwareConfig = COMMON_CATHODE; 
+  byte hardwareConfig = COMMON_CATHODE;
   byte numDigits = 1;
   sevseg.begin(hardwareConfig, numDigits, digitPins, displayPins, resistorOnSegments);
   sevseg.setBrightness(90);
@@ -61,7 +61,7 @@ void loop() {
   if (pressUp)
     Serial.println('u');
 
-  if (pressDown)  
+  if (pressDown)
     Serial.println('d');
 
   // Using ranges for potenciometer values
@@ -85,5 +85,5 @@ void loop() {
   // wait 2 milliseconds before the next loop for the analog-to-digital
   // converter to settle after the last reading:
   delay(100);
-    
+
 }
