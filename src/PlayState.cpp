@@ -21,6 +21,7 @@ void PlayState::initVariables(int diff) {
     this->enemiesSpawnTimer = this->maxEnemiesSpawnTimer;
     this->maxBullets = 100 / this->difficulty;
     this->curBullets = this->maxBullets;
+    this->bulletSpeed = 1;
     this->maxEnemies = 10;
     this->numEnemies = -1;
     this->points = 0;
@@ -155,7 +156,18 @@ void PlayState::updateEnemies() {
 
 void PlayState::updateBullets() {
 
-    // Using the Linked List/Garbage Collector check if the player's bullets exit the screen and add it to the garbage collector
+    for (int i = 0 ; i < this->bullets.listgetSize() ; i++){
+
+        if (this->bullets.list.inPosition(i)->data->getShape().getGlobalBounds().left >= this->window->getSize().x){
+
+            // std::cout << "Enemy " << i << " is wrapping" << std::endl;
+            std::cout << "Bullet has been recycled" << endl;
+
+
+            this->curWave.deleteNode(i);
+            std::cout << "Current ammount of enemies: " << this->maxEnemies << std::endl;
+        }
+    }
 }
 
 /**

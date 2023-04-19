@@ -17,6 +17,7 @@
 #include <vector>
 #include "DataStructures/LinkedList.h"
 #include "DataStructures/LinkedList.cpp"
+#include "BulletCollector.h"
 #include "Player.h"
 #include "Bullet.h"
 #include "Enemy.h"
@@ -44,7 +45,7 @@ private:
     Player player;
     char up;
     char down;
-    LinkedList<Bullet> bullets;
+    BulletCollector bullets;
     int maxBullets;
     int curBullets;
     int bulletSpeed;
