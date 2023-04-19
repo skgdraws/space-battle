@@ -1,4 +1,5 @@
 #include "PlayState.h"
+#include <iostream>
 
 int main() {
 
@@ -19,7 +20,7 @@ int main() {
     PlayState playstate(difficulty);
 
     // Game Loop
-    while (playstate.running()){
+    while (playstate.running()) {
 
         playstate.update();
         playstate.render();

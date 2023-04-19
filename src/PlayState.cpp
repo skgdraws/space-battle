@@ -5,6 +5,8 @@
  */
 void PlayState::initVariables(int diff) {
 
+    openSerialPort();
+
     // Wave Setup
     this->waves[0] = 10;
     this->waves[1] = 12;
@@ -188,7 +190,9 @@ void PlayState::update() {
         this->curWave.inPosition(i)->data.update();
     }
 
-    this->player.update(this->window);
+    this->player.update(this->window, this->up, this->down);
+
+    this->sendToArduino(this->wave);
 
     this->updateEnemies();
     this->playerCollisions();
@@ -215,4 +219,76 @@ void PlayState::render() {
 
     //Displays frame
     this->window->display();
+}
+
+void PlayState::openSerialPort(){
+
+    this->serialStream.Open("/dev/ttyACM0");
+
+    try {
+        this->serialStream.SetBaudRate(LibSerial::BaudRate::BAUD_9600);
+    }
+    catch (const LibSerial::OpenFailed &) {
+
+        std::cerr << "The Port did not open correctly" << std::endl;
+    }
+
+    this->serialStream.SetCharacterSize(LibSerial::CharacterSize::CHAR_SIZE_8);
+    this->serialStream.SetFlowControl(LibSerial::FlowControl::FLOW_CONTROL_NONE);
+    this->serialStream.SetParity(LibSerial::Parity::PARITY_NONE);
+    this->serialStream.SetStopBits(LibSerial::StopBits::STOP_BITS_1);
+
+    while (this->serialStream.rdbuf()->in_avail() == 0){
+        usleep(2000);
+        std::cout << "Waiting for arduino connection" << std::endl;
+    }
+
+    while(this->serialStream.IsDataAvailable()){
+
+        char data_byte;
+
+        this->serialStream.get(data_byte);
+        if(data_byte == 'C'){
+
+            std::cout << "system running \n";
+        }
+    }
+
+    std::cout << "Connected Arduino succesfully" << std::endl;
+}
+
+void PlayState::sendToArduino(int data) {
+
+    this->serialStream << data + 1 << std::endl;
+    this->serialStream.DrainWriteBuffer();
+}
+
+void PlayState::recieveFromArduino() {
+
+    if(serialStream.rdbuf()->in_avail() != 0) {
+
+        usleep(100);
+        int dato = 0;
+
+        while (this->serialStream.rdbuf()->in_avail() != 0){
+
+            char data_byte;
+            serialStream.get(data_byte);
+
+            std::cout << "char pressed: " << data_byte << std::endl;
+
+            if (data_byte == 'u'){
+
+                this->up = data_byte;
+            }
+            else if (data_byte == 'd'){
+
+                this->down = data_byte;
+            }
+            if (int(data_byte) >= 0){
+
+                this->bulletSpeed = int(data_byte);
+            }
+        }
+    }
 }

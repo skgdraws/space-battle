@@ -8,15 +8,18 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jose/Documents/Computadores/CE2103/space-battle/src/Bullet.cpp" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Bullet.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Bullet.cpp.o.d"
-  "/home/jose/Documents/Computadores/CE2103/space-battle/src/BulletCollector.cpp" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/BulletCollector.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/BulletCollector.cpp.o.d"
-  "/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/LinkedList.cpp.o.d"
-  "/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/DataStructures/Node.cpp.o.d"
-  "/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Enemy.cpp.o.d"
-  "/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Pagination.cpp.o.d"
-  "/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/PlayState.cpp.o.d"
-  "/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/Player.cpp.o.d"
-  "/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/jose/Documents/Computadores/CE2103/space-battle/src/main.cpp.o.d"
+  "/home/skgart/space-battle/src/Bullet.cpp" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/Bullet.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/Bullet.cpp.o.d"
+  "/home/skgart/space-battle/src/BulletCollector.cpp" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/BulletCollector.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/BulletCollector.cpp.o.d"
+  "/home/skgart/space-battle/src/DataStructures/LinkedList.cpp" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/DataStructures/LinkedList.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/DataStructures/LinkedList.cpp.o.d"
+  "/home/skgart/space-battle/src/DataStructures/Node.cpp" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/DataStructures/Node.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/DataStructures/Node.cpp.o.d"
+  "/home/skgart/space-battle/src/Enemy.cpp" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/Enemy.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/Enemy.cpp.o.d"
+  "/home/skgart/space-battle/src/Pagination.cpp" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/Pagination.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/Pagination.cpp.o.d"
+  "/home/skgart/space-battle/src/PlayState.cpp" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/PlayState.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/PlayState.cpp.o.d"
+  "/home/skgart/space-battle/src/Player.cpp" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/Player.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/Player.cpp.o.d"
+  "/home/skgart/space-battle/src/libserial/SerialPort.cpp" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/libserial/SerialPort.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/libserial/SerialPort.cpp.o.d"
+  "/home/skgart/space-battle/src/libserial/SerialStream.cpp" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/libserial/SerialStream.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/libserial/SerialStream.cpp.o.d"
+  "/home/skgart/space-battle/src/libserial/SerialStreamBuf.cpp" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/libserial/SerialStreamBuf.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/libserial/SerialStreamBuf.cpp.o.d"
+  "/home/skgart/space-battle/src/main.cpp" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/main.cpp.o" "gcc" "CMakeFiles/Space_Battle.dir/home/skgart/space-battle/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

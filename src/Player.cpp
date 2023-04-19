@@ -124,14 +124,14 @@ void Player::healHP(const int health) {
  * @param
  * @return
  */
-void Player::updateInput() {
+void Player::updateInput(char up, char down) {
 
     // Vertical movement
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::W)){
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::W) || up == 'u' ){
 
         this->shape.move(0.f, -this->movementSpeed);
     }
-    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::S)){
+    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::S) || down == 's'){
 
         this->shape.move(0.f, this->movementSpeed);
     }
@@ -164,10 +164,10 @@ void Player::windowBoundsCollision(const sf::RenderTarget *target) {
  * @param target
  * @return
  */
-void Player::update(const sf::RenderTarget * target){
+void Player::update(const sf::RenderTarget * target, char up, char down){
 
     //Keyboard Input
-    this->updateInput();
+    this->updateInput(up, down);
 
     // Window Bounds Collision
     this->windowBoundsCollision(target);
