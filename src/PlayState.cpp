@@ -155,6 +155,25 @@ void PlayState::updateBullets() {
 }
 
 /**
+ * \brief Detects collisions between player and enemies
+ *
+ */
+void PlayState::playerCollisions() {
+    for (int i = 0; i < this->curWave.getSize(); i++){
+        if(this->curWave.inPosition(i)->data.getShape().getGlobalBounds().intersects(this->player.getShape().getGlobalBounds())){
+            this->player.takeDamage(2);
+
+            this->numEnemies--;
+            this->maxEnemies--;
+
+            this->curWave.deleteNode(i);
+
+            std::cout << this->player.getHP();
+        }
+    }
+}
+
+/**
  * Updates values at runtime. Is in charge of input and changing positions to sprites as well as dealing
  * with the game's logic in it's entirety
  */
@@ -172,7 +191,7 @@ void PlayState::update() {
     this->player.update(this->window);
 
     this->updateEnemies();
-    // this->playerCollisions();
+    this->playerCollisions();
     this->updateBullets();
 
 }
